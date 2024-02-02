@@ -357,7 +357,7 @@
     </div>
 </div>
 <input type="hidden" id="yelog_site_posts_number" value="18">
-<input type="hidden" id="yelog_site_word_count" value="12.4k">
+<input type="hidden" id="yelog_site_word_count" value="12.5k">
 <div style="display: none">
     <span id="busuanzi_value_site_uv"></span>
     <span id="busuanzi_value_site_pv"></span>
@@ -703,30 +703,30 @@
         <h2 id="安装wine"><a href="#安装wine" class="headerlink" title="安装wine"></a>安装wine</h2><h3 id="方法1-从Ubuntu安装Wine（简单，而且适用在Debian上）"><a href="#方法1-从Ubuntu安装Wine（简单，而且适用在Debian上）" class="headerlink" title="方法1. 从Ubuntu安装Wine（简单，而且适用在Debian上）"></a>方法1. 从Ubuntu安装Wine（简单，而且适用在Debian上）</h3><p>Wine可以直接Ubuntu的软件仓库中获得，这种方法获取的wine的版本可能不能最新的。</p>
 <p>即使你正在使用一个64位的Ubuntu系统，你也想要在你的发行版上添加32位架构的支持，这将有利于你安装特殊的软件。</p>
 <p>输入下面的命令以安装wine:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo dpkg --add-architecture i386</span><br><span class="line">sudo apt update</span><br><span class="line">sudo apt install wine -y</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo dpkg --add-architecture i386</span><br><span class="line">sudo apt update</span><br><span class="line">sudo apt install wine -y</span><br></pre></td></tr></table></figure>
 
 <p>配合<a href="https://xuzijin.com/2024/01/28/Ubuntu-Debian%E6%8D%A2%E6%BA%90/">Ubuntu&#x2F;Debian换源</a>的这章教程，安装速度不会很慢。wine的安装大小差不多1.3 GB，请确保你的电脑有足够的硬盘空间。</p>
 <h3 id="方法2-从Wine的存储库安装最新的版本"><a href="#方法2-从Wine的存储库安装最新的版本" class="headerlink" title="方法2: 从Wine的存储库安装最新的版本"></a>方法2: 从Wine的存储库安装最新的版本</h3><p>首先请确保你的Ubuntu电脑上没有安装wine，如果有请卸载掉。</p>
 <p>步骤1: 添加 32 位架构支持</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo dpkg --add-architecture i386</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dpkg --add-architecture i386</span><br></pre></td></tr></table></figure>
 
 <p>步骤2: 下载和添加存储库密钥</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo <span class="built_in">mkdir</span> -pm755 /etc/apt/keyrings</span><br><span class="line">sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="built_in">mkdir</span> -pm755 /etc/apt/keyrings</span><br><span class="line">sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key</span><br></pre></td></tr></table></figure>
 
 <p>步骤3: 下载 WineHQ 源文件文件</p>
 <p>适用于Ubuntu22.04LTS系统</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/focal/winehq-focal.sources</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/focal/winehq-focal.sources</span><br></pre></td></tr></table></figure>
 
 <p>下载完成后，更新软件包信息和安装Wine的软件包。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt install --install-recommends winehq-stable</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install --install-recommends winehq-stable</span><br></pre></td></tr></table></figure>
 
 <p>PS: 如果你现有开发版本或暂存版本，相应地使用<code>winehq-devel</code>或<code>winehq-staging</code>。</p>
 <h2 id="初始化Wine"><a href="#初始化Wine" class="headerlink" title="初始化Wine"></a>初始化Wine</h2><p>使用</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">winecfg</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">winecfg</span><br></pre></td></tr></table></figure>
 
 <p>命令来初始化wine，这将创建用于安装Windows应用程序的虚拟的<code>C:</code>驱动器，也就是虚拟了一个C盘。</p>
 <p>在按照这些步骤时，有时，你可能在文件管理器的右键菜单中找不到 “使用 Wine Windows 程序加载器打开(Open With Wine Windows Program Loader)” 的选项时可以使用以下命令进行修复</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo <span class="built_in">ln</span> -s /usr/share/doc/wine/examples/wine.desktop /usr/share/applications/</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="built_in">ln</span> -s /usr/share/doc/wine/examples/wine.desktop /usr/share/applications/</span><br></pre></td></tr></table></figure>
 
 <p>然后<code>reboot</code>（重启）你的系统就可以了。</p>
 <h2 id="使用wine来来运行（安装）Windows应用程序"><a href="#使用wine来来运行（安装）Windows应用程序" class="headerlink" title="使用wine来来运行（安装）Windows应用程序"></a>使用wine来来运行（安装）Windows应用程序</h2><p>假设你要安装Windows应用程序，那么你只需要同意协议然后大部分软件都是一直按next就行了，然后安装位置直接就是默认的c盘就行，像git的安装可以看看我的那篇文章<a href="https://xuzijin.com/2024/01/23/%E6%80%8E%E4%B9%88%E4%BD%BF%E7%94%A8git(1)/">怎么使用git(1)</a>。</p>

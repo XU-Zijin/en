@@ -357,7 +357,7 @@
     </div>
 </div>
 <input type="hidden" id="yelog_site_posts_number" value="18">
-<input type="hidden" id="yelog_site_word_count" value="12.4k">
+<input type="hidden" id="yelog_site_word_count" value="12.5k">
 <div style="display: none">
     <span id="busuanzi_value_site_uv"></span>
     <span id="busuanzi_value_site_pv"></span>
@@ -706,14 +706,14 @@
 <h3 id="非必要的"><a href="#非必要的" class="headerlink" title="非必要的"></a>非必要的</h3><ul>
 <li>买一个域名作为你服务器的地址（像<code>2b2t.org</code>之类的，这里推荐用便宜的<code>.top</code>后缀的域名</li>
 </ul>
-<h2 id="安装JAVA环境"><a href="#安装JAVA环境" class="headerlink" title="安装JAVA环境"></a>安装JAVA环境</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 下载JDK17安装包，也可以自己去官网下载，如果出错就运行命令 yum install wget(centos)或 apt install wget(ubuntu/debian)</span></span><br><span class="line">wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb <span class="comment">#ubuntu用这个</span></span><br><span class="line">wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.rpm <span class="comment">#centos用这个</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装JDK17</span></span><br><span class="line">rpm -i jdk-17_linux-x64_bin.rpm <span class="comment">#centos用这个</span></span><br><span class="line">dpkg -i jdk-17_linux-x64_bin.deb <span class="comment">#ubuntu用这个</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 测试是否安装正常，显示 java version &quot;17.0.1&quot; 2021-10-19 LTS 则为正常</span></span><br><span class="line">java -version</span><br></pre></td></tr></table></figure>
+<h2 id="安装JAVA环境"><a href="#安装JAVA环境" class="headerlink" title="安装JAVA环境"></a>安装JAVA环境</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 下载JDK17安装包，也可以自己去官网下载，如果出错就运行命令 yum install wget(centos)或 apt install wget(ubuntu/debian)</span></span><br><span class="line">wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb <span class="comment">#ubuntu用这个</span></span><br><span class="line">wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.rpm <span class="comment">#centos用这个</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装JDK17</span></span><br><span class="line">rpm -i jdk-17_linux-x64_bin.rpm <span class="comment">#centos用这个</span></span><br><span class="line">dpkg -i jdk-17_linux-x64_bin.deb <span class="comment">#ubuntu用这个</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 测试是否安装正常，显示 java version &quot;17.0.1&quot; 2021-10-19 LTS 则为正常</span></span><br><span class="line">java -version</span><br></pre></td></tr></table></figure>
 
 <h2 id="端口开放"><a href="#端口开放" class="headerlink" title="端口开放"></a>端口开放</h2><p>面板需要<code>23333</code>（主功能）端口与<code>20010 - 20200</code>（FTP功能端口区间。<br>游戏服务器默认端口是 25565。<br>如果你使用阿里云，腾讯云或者其他云服务商，请进入控制台到防火墙安全组策略，放行以上端口，或者放行全部端口，入和出方向都要</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ufw allow 23333</span><br><span class="line">ufw allow 25565</span><br><span class="line">ufw allow 20010-20200</span><br><span class="line">ufw status <span class="comment">#查看端口开放状态</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ufw allow 23333</span><br><span class="line">ufw allow 25565</span><br><span class="line">ufw allow 20010-20200</span><br><span class="line">ufw status <span class="comment">#查看端口开放状态</span></span><br></pre></td></tr></table></figure>
 <p>如果依然无法访问，请关闭系统自带防火墙：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo ufw <span class="built_in">disable</span> </span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ufw <span class="built_in">disable</span> </span><br></pre></td></tr></table></figure>
 <h2 id="安装面板"><a href="#安装面板" class="headerlink" title="安装面板"></a>安装面板</h2><p>一行命令快速安装（适用于AMD64架构 Ubuntu&#x2F;Centos&#x2F;Debian&#x2F;Archlinux）</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wget -qO- https://gitee.com/Suwingser/MCSManager-installer/raw/master/install.sh | bash</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -qO- https://gitee.com/Suwingser/MCSManager-installer/raw/master/install.sh | bash</span><br></pre></td></tr></table></figure>
 
 <ul>
 <li>执行完成后，使用<code>systemctl start mcsm</code>即可启动面板服务。</li>
