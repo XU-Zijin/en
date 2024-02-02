@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hexo add music plugin | Xu Zijin</title>
+  <meta name="keywords" content=" hexo , 3-hexo ">
+  <meta name="description" content="Hexo add music plugin | Xu Zijin">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="关于|About Reading volume:   个人简介Webmaster (Xu Zijin), A junior high school student, like programming (python, c, C ++, arduino), like to study hardware, install computer , make servers, like to play mi">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Xu Zijin">
+<meta property="og:url" content="https://xuzijin.com/en/about/index.html">
+<meta property="og:site_name" content="Xu Zijin">
+<meta property="og:description" content="关于|About Reading volume:   个人简介Webmaster (Xu Zijin), A junior high school student, like programming (python, c, C ++, arduino), like to study hardware, install computer , make servers, like to play mi">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://static.ipw.cn/icon/ipv6-certified-s1.svg">
+<meta property="article:published_time" content="2024-02-02T08:48:33.431Z">
+<meta property="article:modified_time" content="2024-02-02T08:48:33.431Z">
+<meta property="article:author" content="Xu Zijin">
+<meta property="article:tag" content="blog">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://static.ipw.cn/icon/ipv6-certified-s1.svg">
+
+
+<link rel="icon" href="/img/favicon.jpg">
+
+<link href="/en/css/style.css?v=1.1.0" rel="stylesheet">
+
+<link href="/en/css/hl_theme/atom-light.css?v=1.1.0" rel="stylesheet">
+
+<link href="//cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" rel="stylesheet">
+
+<script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="/en/js/titleTip.js?v=1.1.0" ></script>
+
+<script src="//cdn.jsdelivr.net/npm/highlightjs@9.16.2/highlight.pack.min.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+
+<script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
+
+
+
+<script src="//cdn.jsdelivr.net/npm/jquery.cookie@1.4.1/jquery.cookie.min.js" ></script>
+
+<script src="/en/js/iconfont.js?v=1.1.0" ></script>
+<script src="/en/js/custom-iconfont.js?v=1.1.0" ></script>
+<script src="/en/js/gitlab.js?v=1.1.0" ></script>
+
+<meta name="generator" content="Hexo 7.1.1"><link rel="alternate" href="/en/atom.xml" title="Xu Zijin" type="application/atom+xml">
+</head>
+<div style="display: none">
+  <input class="theme_disqus_on" value="false">
+  <input class="theme_preload_comment" value="">
+  <input class="theme_blog_path" value="/en">
+  <input id="theme_shortcut" value="true" />
+  <input id="theme_highlight_on" value="true" />
+  <input id="theme_code_copy" value="true" />
+</div>
+
+
+
+<body>
+<aside class="nav">
+    <div class="nav-left">
+        <a href="/en/"
+   class="avatar_target">
+    <img class="avatar"
+         src="/en/img/avatar.jpg"/>
+</a>
+<div class="author">
+    <span>Xu Zijin</span>
+</div>
+
+<div class="icon">
+    
+        
+            <a title="rss"
+               href="/atom.xml"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-rss"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="github"
+               href="https://github.com/XU-Zijin"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="facebook"
+               href="https://www.facebook.com/profile.php?id=61556121692006"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-facebook"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="twitter"
+               href="https://twitter.com/ZijinXu510514"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-twitter"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="zhihu"
+               href="https://www.zhihu.com/people/xzj-zh"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-zhihu"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="csdn"
+               href="https://blog.csdn.net/apple_71925917?spm=1000.2115.3001.5343"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-csdn"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="oschina"
+               href="https://www.oschina.net/"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-oschina"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="email"
+               href="mailto:3279388083@qq.com"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-email"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="qq"
+               href="http://wpa.qq.com/msgrd?v=3&uin=3279388083&site=qq&menu=yes"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-qq"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="gitee"
+               href="https://gitee.com/xzj0512"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-gitee"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="gitlab"
+               href="https://gitlab.com/XU-Zijin"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-gitlab"></use>
+                    </svg>
+                
+            </a>
+        
+    
+</div>
+
+
+
+    <a class="more-menus">More menu</a>
+
+
+<ul>
+    <li>
+        <div class="all active" data-rel="All">All
+            
+                <small>(18)</small>
+            
+        </div>
+    </li>
+    
+        
+            
+                <li>
+                    <div data-rel="Tools">
+                        <i class="fold iconfont icon-right"></i>
+                        
+                        Tools
+                        <small>(9)</small>
+                        
+                    </div>
+                    
+                        <ul class="sub hide">
+                            
+                                <li>
+                                    <div data-rel="Tools<--->Git">
+                                        <i class="fold iconfont icon-right"></i>
+                                        
+                                        Git
+                                        
+                                            <small>(3
+                                                )</small>
+                                        
+                                    </div>
+                                    
+                                        <ul class="sub hide">
+                                            
+                                                <li>
+                                                    <div data-rel="Tools<--->GitDetailed edition">
+                                                        
+                                                        Detailed edition
+                                                        
+                                                            <small>(1)</small>
+                                                        
+                                                    </div>
+                                                </li>
+                                            
+                                                <li>
+                                                    <div data-rel="Tools<--->GitSimplified version">
+                                                        
+                                                        Simplified version
+                                                        
+                                                            <small>(1)</small>
+                                                        
+                                                    </div>
+                                                </li>
+                                            
+                                        </ul>
+                                    
+                                </li>
+                            
+                        </ul>
+                    
+                </li>
+            
+        
+    
+        
+            
+                <li>
+                    <div data-rel="Web">
+                        
+                        Web
+                        <small>(3)</small>
+                        
+                    </div>
+                    
+                </li>
+            
+        
+    
+        
+            
+                <li>
+                    <div data-rel="Linux">
+                        
+                        Linux
+                        <small>(4)</small>
+                        
+                    </div>
+                    
+                </li>
+            
+        
+    
+        
+            
+                <li>
+                    <div data-rel="Open source">
+                        
+                        Open source
+                        <small>(1)</small>
+                        
+                    </div>
+                    
+                </li>
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+</ul>
+<div class="left-bottom">
+    <div class="menus">
+        
+            
+            
+            
+                <a class="dynamic-menu "
+                   target="_self"
+                   
+                   href="https://xuzijin.com">Chinese</a>
+        
+    </div>
+    <div>
+        
+            <a class="about  hasFriend  site_url"
+               
+               href="/en/about">About</a>
+        
+        <a style="width: 50%"
+                
+                                           class="friends">Friends</a>
+        
+    </div>
+</div>
+<input type="hidden" id="yelog_site_posts_number" value="18">
+<input type="hidden" id="yelog_site_word_count" value="12.5k">
+<div style="display: none">
+    <span id="busuanzi_value_site_uv"></span>
+    <span id="busuanzi_value_site_pv"></span>
+</div>
+
+    </div>
+    <div class="nav-right">
+        <div class="friends-area">
+    <div class="friends-title">
+        Links
+        <i class="iconfont icon-left"></i>
+    </div>
+    <div class="friends-content">
+        <ul>
+            
+            <li><a target="_blank" href="https://github.com/XU-Zijin/en">Github Pages Repositories</a></li>
+            
+            <li><a target="_blank" href="https://xuzijin.com/en/zxl's-Personal-profile.html">zxl&#39;s Personal profile</a></li>
+            
+        </ul>
+    </div>
+</div>
+        <div class="title-list">
+    <div class="right-top">
+        <div id="default-panel">
+            <i class="iconfont icon-search" data-title="Search shortcut key i"></i>
+            <div class="right-title">All</div>
+            <i class="iconfont icon-file-tree" data-title="Switch to outline view shortcut key w"></i>
+        </div>
+        <div id="search-panel">
+            <i class="iconfont icon-left" data-title="Back"></i>
+            <input id="local-search-input" autocomplete="off"/>
+            <label class="border-line" for="input"></label>
+            <i class="iconfont icon-case-sensitive" data-title="Case sensitive"></i>
+            <i class="iconfont icon-tag" data-title="Tag"></i>
+        </div>
+        <div id="outline-panel" style="display: none">
+            <div class="right-title">Outline</div>
+            <i class="iconfont icon-list" data-title="Change the articles list"></i>
+        </div>
+    </div>
+
+    <div class="tags-list">
+    <input id="tag-search" />
+    <div class="tag-wrapper">
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>3-hexo</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Debian</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>git</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>hexo</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>html</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Linux</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Minecraft</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Python</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Ubuntu</a>
+            </li>
+        
+    </div>
+
+</div>
+
+    
+    <div id="local-search-result">
+
+    </div>
+    
+    <nav id="title-list-nav">
+        
+        
+        <a id="top" class="All Tools "
+           href="/en/03262023/3-hexo-Instructions/"
+           data-tag="hexo,3-hexo"
+           data-author="" >
+            <span class="post-title" title="3-hexo Instructions">3-hexo Instructions</span>
+            <span class="post-date" title="2023-03-26 12:11:27">2023/03/26</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/en/02022024/hello-world/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Hello World">Hello World</span>
+            <span class="post-date" title="2024-02-02 08:48:33">2024/02/02</span>
+        </a>
+        
+        
+        <a  class="All Tools "
+           href="/en/02012024/Ubuntu-Debian-builds-hexo-blogs-from-0/"
+           data-tag="hexo"
+           data-author="" >
+            <span class="post-title" title="Ubuntu/Debian builds hexo blogs from 0">Ubuntu/Debian builds hexo blogs from 0</span>
+            <span class="post-date" title="2024-01-31 20:21:38">2024/01/31</span>
+        </a>
+        
+        
+        <a  class="All Linux "
+           href="/en/02012024/A-daily-Linux-command-(1)/"
+           data-tag="Linux"
+           data-author="" >
+            <span class="post-title" title="A daily Linux command (1)-View the kernel and distribution information of the current system">A daily Linux command (1)-View the kernel and distribution information of the current system</span>
+            <span class="post-date" title="2024-01-31 19:27:00">2024/01/31</span>
+        </a>
+        
+        
+        <a  class="All Linux "
+           href="/en/01312024/Use-wine-on-Ubuntu/"
+           data-tag="Linux,Ubuntu"
+           data-author="" >
+            <span class="post-title" title="Use wine on Ubuntu to run software on Windows">Use wine on Ubuntu to run software on Windows</span>
+            <span class="post-date" title="2024-01-30 21:22:56">2024/01/30</span>
+        </a>
+        
+        
+        <a  class="All Web "
+           href="/en/01312024/A-beautiful-personal-profile-by-html/"
+           data-tag="html"
+           data-author="" >
+            <span class="post-title" title="A beautiful personal profile by html">A beautiful personal profile by html</span>
+            <span class="post-date" title="2024-01-30 16:28:21">2024/01/30</span>
+        </a>
+        
+        
+        <a  class="All Tools Git Detailed edition "
+           href="/en/01302024/How-to-use-git(3)-detailed-edition/"
+           data-tag="git"
+           data-author="" >
+            <span class="post-title" title="How to use git(3) Detailed edition">How to use git(3) Detailed edition</span>
+            <span class="post-date" title="2024-01-29 20:30:09">2024/01/29</span>
+        </a>
+        
+        
+        <a  class="All Tools Git Simplified version "
+           href="/en/01302024/How-to-use-git(2)-simplified-version/"
+           data-tag="git"
+           data-author="" >
+            <span class="post-title" title="How to use git(2) Simplified version">How to use git(2) Simplified version</span>
+            <span class="post-date" title="2024-01-29 20:20:12">2024/01/29</span>
+        </a>
+        
+        
+        <a  class="All Linux "
+           href="/en/01282024/Ubuntu-Debian-%20change-source/"
+           data-tag="Linux,Ubuntu,Debian"
+           data-author="" >
+            <span class="post-title" title="Ubuntu/Debian change source">Ubuntu/Debian change source</span>
+            <span class="post-date" title="2024-01-28 10:28:27">2024/01/28</span>
+        </a>
+        
+        
+        <a  class="All Linux "
+           href="/en/01282024/Ubuntu-enables-ssh-and-allows-the-root-user/"
+           data-tag="Linux,Ubuntu,Debian"
+           data-author="" >
+            <span class="post-title" title="Ubuntu/Debian enables ssh and allows the root user to log in">Ubuntu/Debian enables ssh and allows the root user to log in</span>
+            <span class="post-date" title="2024-01-27 21:27:00">2024/01/27</span>
+        </a>
+        
+        
+        <a  class="All Tools "
+           href="/en/01282024/Change-website-icon-in-hexo/"
+           data-tag="hexo"
+           data-author="" >
+            <span class="post-title" title="Change website icon in hexo">Change website icon in hexo</span>
+            <span class="post-date" title="2024-01-27 18:01:35">2024/01/27</span>
+        </a>
+        
+        
+        <a  class="All Tools Git "
+           href="/en/01242024/How-to-use-git(1)/"
+           data-tag="git"
+           data-author="" >
+            <span class="post-title" title="How to use git(1)">How to use git(1)</span>
+            <span class="post-date" title="2024-01-23 20:01:17">2024/01/23</span>
+        </a>
+        
+        
+        <a  class="All Open source "
+           href="/en/01232024/PyClock/"
+           data-tag="Python"
+           data-author="" >
+            <span class="post-title" title="PyClock">PyClock</span>
+            <span class="post-date" title="2024-01-23 15:30:47">2024/01/23</span>
+        </a>
+        
+        
+        <a  class="All Tools "
+           href="/en/12102023/Set-up-an-minrcraft-server/"
+           data-tag="Minecraft"
+           data-author="" >
+            <span class="post-title" title="Use the MCSM panel to quickly set up an MC server">Use the MCSM panel to quickly set up an MC server</span>
+            <span class="post-date" title="2023-12-09 16:16:07">2023/12/09</span>
+        </a>
+        
+        
+        <a  class="All Tools "
+           href="/en/11262023/Hexo-add-music-plugin/"
+           data-tag="hexo,3-hexo"
+           data-author="" >
+            <span class="post-title" title="Hexo add music plugin">Hexo add music plugin</span>
+            <span class="post-date" title="2023-11-25 16:42:45">2023/11/25</span>
+        </a>
+        
+        
+        <a  class="All Tools "
+           href="/en/11252023/How-to-use-hexo/"
+           data-tag="hexo"
+           data-author="" >
+            <span class="post-title" title="How to use hexo">How to use hexo</span>
+            <span class="post-date" title="2023-11-25 15:51:32">2023/11/25</span>
+        </a>
+        
+        
+        <a  class="All Web "
+           href="/en/11192023/Change-a-new-domain-name/"
+           data-tag="hexo,3-hexo"
+           data-author="" >
+            <span class="post-title" title="My blog change a new domain name">My blog change a new domain name</span>
+            <span class="post-date" title="2023-11-19 11:31:05">2023/11/19</span>
+        </a>
+        
+        
+        <a  class="All Web "
+           href="/en/09172023/404-Page/"
+           data-tag="hexo"
+           data-author="" >
+            <span class="post-title" title="404 Page">404 Page</span>
+            <span class="post-date" title="2023-09-17 13:31:52">2023/09/17</span>
+        </a>
+        
+        <div id="no-item-tips">
+
+        </div>
+    </nav>
+    <div id="outline-list">
+    </div>
+</div>
+
+    </div>
+    <div class="hide-list">
+        <div class="semicircle" data-title="Fullscreen shortcut key s">
+            <div class="brackets first"><</div>
+            <div class="brackets">&gt;</div>
+        </div>
+    </div>
+</aside>
+<div id="post">
+    <div class="pjax">
+        <article id="post-Hexo-add-music-plugin" class="article article-type-post" itemscope itemprop="blogPost">
+    
+        <h1 class="article-title">Hexo add music plugin</h1>
+    
+    <div class="article-meta">
+        
+        
+        
+        <span class="book">
+            <i class="iconfont icon-category"></i>
+            
+            
+            <a  data-rel="Tools">Tools</a>
+            
+        </span>
+        
+        
+        <span class="tag">
+            <i class="iconfont icon-tag"></i>
+            
+            <a class="color5">hexo</a>
+            
+            <a class="color2">3-hexo</a>
+            
+        </span>
+        
+    </div>
+    <div class="article-meta">
+        
+            Created At : <time class="date" title='Updated At: 2024-02-02 08:48:33'>2023-11-25 16:42</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        <span>Count:890</span>
+        
+        
+        <span id="busuanzi_container_page_pv">
+            Views 👀 :<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90"><span class="toc-text">网易云音乐</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%A4%8D%E5%88%B6%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E4%BB%A3%E7%A0%81"><span class="toc-text">1. 复制网易云音乐插件代码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%B0%86%E6%8F%92%E4%BB%B6%E6%B7%BB%E5%8A%A0%E5%88%B0%E4%B8%BB%E9%A2%98%E4%B8%AD"><span class="toc-text">2. 将插件添加到主题中</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E8%B0%83%E6%95%B4%E4%BD%8D%E7%BD%AE"><span class="toc-text">3. 调整位置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E8%87%AA%E7%94%B1%E6%8B%96%E5%8A%A8"><span class="toc-text">4. 自由拖动</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%8C%E6%95%B4%E4%BB%A3%E7%A0%81"><span class="toc-text">完整代码</span></a></li></ol></li></ol>
+    
+<style>
+    .left-col .switch-btn,
+    .left-col .switch-area {
+        display: none;
+    }
+    .toc-level-3 i,
+    .toc-level-3 ol {
+        display: none !important;
+    }
+</style>
+</div>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <ul>
+<li>此功能基于3-hexo主题</li>
+</ul>
+<h2 id="网易云音乐"><a href="#网易云音乐" class="headerlink" title="网易云音乐"></a>网易云音乐</h2><h3 id="1-复制网易云音乐插件代码"><a href="#1-复制网易云音乐插件代码" class="headerlink" title="1. 复制网易云音乐插件代码"></a>1. 复制网易云音乐插件代码</h3><p>前往<u><a target="_blank" rel="noopener" href="https://music.163.com/">网易云音乐官网</a></u>，搜索一个作为背景音乐的歌曲，并进入播放页面，点击”生成外链播放器”</p>
+<p><img src="https://i.loli.net/2019/10/08/RgSUj1i8vXNk5IP.png" alt="生成外链播放器"></p>
+<p>设置好想要显示的样式后，复制<code>html</code>代码</p>
+<p><img src="https://i.loli.net/2019/10/08/rbHRZEoB4mzip75.png" alt="image"></p>
+<p>最好外层在加一个<code>div</code>，如下，可直接将上一步复制的<code>iframe</code>替换下方里面的<code>iframe</code></p>
+<figure class="highlight html"><figcaption><span>xml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;musicMouseDrag&quot;</span> <span class="attr">style</span>=<span class="string">&quot;position:fixed; z-index: 9999; bottom: 0; right: 0;&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;musicDragArea&quot;</span> <span class="attr">style</span>=<span class="string">&quot;position: absolute; top: 0; left: 0; width: 100%;height: 10px;cursor: move; z-index: 10;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">iframe</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">marginwidth</span>=<span class="string">&quot;0&quot;</span> <span class="attr">marginheight</span>=<span class="string">&quot;0&quot;</span> <span class="attr">width</span>=<span class="string">330</span> <span class="attr">height</span>=<span class="string">86</span> <span class="attr">src</span>=<span class="string">&quot;//music.163.com/outchain/player?type=2&amp;id=38592976&amp;auto=1&amp;height=66&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="2-将插件添加到主题中"><a href="#2-将插件添加到主题中" class="headerlink" title="2. 将插件添加到主题中"></a>2. 将插件添加到主题中</h3><p>将上一步加过<code>div</code>的代码粘贴到<code>3-hexo</code>主题下<code>layout/_partial/footer.ejs</code>的最后面</p>
+<h3 id="3-调整位置"><a href="#3-调整位置" class="headerlink" title="3. 调整位置"></a>3. 调整位置</h3><p>默认给的样式是显示在右下角，可以通过调整上一步粘贴的<code>div</code>的 <code>style</code>中<code>bottom</code>和<code>right</code>来调整位置。</p>
+<h3 id="4-自由拖动"><a href="#4-自由拖动" class="headerlink" title="4. 自由拖动"></a>4. 自由拖动</h3><p>如果需要自由拖动，在刚才添加的代码后面，再添加下面代码即可，鼠标就可以在音乐控件的上边沿点击拖动</p>
+<figure class="highlight html"><figcaption><span>xml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--以下代码是为了支持随时拖动音乐控件的位置，如没有需求，可去掉下面代码--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">var</span> $DOC = $(<span class="variable language_">document</span>)</span></span><br><span class="line"><span class="language-javascript">    $(<span class="string">&#x27;#musicMouseDrag&#x27;</span>).<span class="title function_">on</span>(<span class="string">&#x27;mousedown&#x27;</span>, <span class="keyword">function</span> (<span class="params">e</span>) &#123;</span></span><br><span class="line"><span class="language-javascript">      <span class="comment">// 阻止文本选中</span></span></span><br><span class="line"><span class="language-javascript">      $DOC.<span class="title function_">bind</span>(<span class="string">&quot;selectstart&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">return</span> <span class="literal">false</span>;</span></span><br><span class="line"><span class="language-javascript">      &#125;);</span></span><br><span class="line"><span class="language-javascript">      $(<span class="string">&#x27;#musicDragArea&#x27;</span>).<span class="title function_">css</span>(<span class="string">&#x27;height&#x27;</span>, <span class="string">&#x27;100%&#x27;</span>);</span></span><br><span class="line"><span class="language-javascript">      <span class="keyword">var</span> $moveTarget = $(<span class="string">&#x27;#musicMouseDrag&#x27;</span>);</span></span><br><span class="line"><span class="language-javascript">      $moveTarget.<span class="title function_">css</span>(<span class="string">&#x27;border&#x27;</span>, <span class="string">&#x27;1px dashed grey&#x27;</span>)</span></span><br><span class="line"><span class="language-javascript">      <span class="keyword">var</span> div_x = e.<span class="property">pageX</span> - $moveTarget.<span class="title function_">offset</span>().<span class="property">left</span>;</span></span><br><span class="line"><span class="language-javascript">      <span class="keyword">var</span> div_y = e.<span class="property">pageY</span> - $moveTarget.<span class="title function_">offset</span>().<span class="property">top</span>;</span></span><br><span class="line"><span class="language-javascript">      $DOC.<span class="title function_">on</span>(<span class="string">&#x27;mousemove&#x27;</span>, <span class="keyword">function</span> (<span class="params">e</span>) &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">var</span> targetX = e.<span class="property">pageX</span> - div_x;</span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">var</span> targetY = e.<span class="property">pageY</span> - div_y;</span></span><br><span class="line"><span class="language-javascript">        targetX = targetX &lt; <span class="number">0</span> ? <span class="number">0</span> : (targetX + $moveTarget.<span class="title function_">outerWidth</span>() &gt;= <span class="variable language_">window</span>.<span class="property">innerWidth</span>) ? <span class="variable language_">window</span>.<span class="property">innerWidth</span> - $moveTarget.<span class="title function_">outerWidth</span>() : targetX;</span></span><br><span class="line"><span class="language-javascript">        targetY = targetY &lt; <span class="number">0</span> ? <span class="number">0</span> : (targetY + $moveTarget.<span class="title function_">outerHeight</span>() &gt;= <span class="variable language_">window</span>.<span class="property">innerHeight</span>) ? <span class="variable language_">window</span>.<span class="property">innerHeight</span> - $moveTarget.<span class="title function_">outerHeight</span>() : targetY;</span></span><br><span class="line"><span class="language-javascript">        $moveTarget.<span class="title function_">css</span>(&#123;<span class="string">&#x27;left&#x27;</span>: targetX + <span class="string">&#x27;px&#x27;</span>, <span class="string">&#x27;top&#x27;</span>: targetY + <span class="string">&#x27;px&#x27;</span>, <span class="string">&#x27;bottom&#x27;</span>: <span class="string">&#x27;inherit&#x27;</span>, <span class="string">&#x27;right&#x27;</span>: <span class="string">&#x27;inherit&#x27;</span>&#125;)</span></span><br><span class="line"><span class="language-javascript">      &#125;).<span class="title function_">on</span>(<span class="string">&#x27;mouseup&#x27;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">        $DOC.<span class="title function_">unbind</span>(<span class="string">&quot;selectstart&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">        $DOC.<span class="title function_">off</span>(<span class="string">&#x27;mousemove&#x27;</span>)</span></span><br><span class="line"><span class="language-javascript">        $DOC.<span class="title function_">off</span>(<span class="string">&#x27;mouseup&#x27;</span>)</span></span><br><span class="line"><span class="language-javascript">        $moveTarget.<span class="title function_">css</span>(<span class="string">&#x27;border&#x27;</span>, <span class="string">&#x27;none&#x27;</span>)</span></span><br><span class="line"><span class="language-javascript">        $(<span class="string">&#x27;#musicDragArea&#x27;</span>).<span class="title function_">css</span>(<span class="string">&#x27;height&#x27;</span>, <span class="string">&#x27;10px&#x27;</span>);</span></span><br><span class="line"><span class="language-javascript">      &#125;)</span></span><br><span class="line"><span class="language-javascript">    &#125;)</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h3 id="完整代码"><a href="#完整代码" class="headerlink" title="完整代码"></a>完整代码</h3><figure class="highlight html"><figcaption><span>xml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;musicMouseDrag&quot;</span> <span class="attr">style</span>=<span class="string">&quot;position:fixed; z-index: 9999; bottom: 0; right: 0;&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;musicDragArea&quot;</span> <span class="attr">style</span>=<span class="string">&quot;position: absolute; top: 0; left: 0; width: 100%;height: 10px;cursor: move; z-index: 10;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">iframe</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">marginwidth</span>=<span class="string">&quot;0&quot;</span> <span class="attr">marginheight</span>=<span class="string">&quot;0&quot;</span> <span class="attr">width</span>=<span class="string">330</span> <span class="attr">height</span>=<span class="string">86</span> <span class="attr">src</span>=<span class="string">&quot;//music.163.com/outchain/player?type=2&amp;id=346089&amp;auto=1&amp;height=66&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--以下代码是为了支持随时拖动音乐控件的位置，如没有需求，可去掉下面代码--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">var</span> $DOC = $(<span class="variable language_">document</span>)</span></span><br><span class="line"><span class="language-javascript">    $(<span class="string">&#x27;#musicMouseDrag&#x27;</span>).<span class="title function_">on</span>(<span class="string">&#x27;mousedown&#x27;</span>, <span class="keyword">function</span> (<span class="params">e</span>) &#123;</span></span><br><span class="line"><span class="language-javascript">      <span class="comment">// 阻止文本选中</span></span></span><br><span class="line"><span class="language-javascript">      $DOC.<span class="title function_">bind</span>(<span class="string">&quot;selectstart&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">return</span> <span class="literal">false</span>;</span></span><br><span class="line"><span class="language-javascript">      &#125;);</span></span><br><span class="line"><span class="language-javascript">      $(<span class="string">&#x27;#musicDragArea&#x27;</span>).<span class="title function_">css</span>(<span class="string">&#x27;height&#x27;</span>, <span class="string">&#x27;100%&#x27;</span>);</span></span><br><span class="line"><span class="language-javascript">      <span class="keyword">var</span> $moveTarget = $(<span class="string">&#x27;#musicMouseDrag&#x27;</span>);</span></span><br><span class="line"><span class="language-javascript">      $moveTarget.<span class="title function_">css</span>(<span class="string">&#x27;border&#x27;</span>, <span class="string">&#x27;1px dashed grey&#x27;</span>)</span></span><br><span class="line"><span class="language-javascript">      <span class="keyword">var</span> div_x = e.<span class="property">pageX</span> - $moveTarget.<span class="title function_">offset</span>().<span class="property">left</span>;</span></span><br><span class="line"><span class="language-javascript">      <span class="keyword">var</span> div_y = e.<span class="property">pageY</span> - $moveTarget.<span class="title function_">offset</span>().<span class="property">top</span>;</span></span><br><span class="line"><span class="language-javascript">      $DOC.<span class="title function_">on</span>(<span class="string">&#x27;mousemove&#x27;</span>, <span class="keyword">function</span> (<span class="params">e</span>) &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">var</span> targetX = e.<span class="property">pageX</span> - div_x;</span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">var</span> targetY = e.<span class="property">pageY</span> - div_y;</span></span><br><span class="line"><span class="language-javascript">        targetX = targetX &lt; <span class="number">0</span> ? <span class="number">0</span> : (targetX + $moveTarget.<span class="title function_">outerWidth</span>() &gt;= <span class="variable language_">window</span>.<span class="property">innerWidth</span>) ? <span class="variable language_">window</span>.<span class="property">innerWidth</span> - $moveTarget.<span class="title function_">outerWidth</span>() : targetX;</span></span><br><span class="line"><span class="language-javascript">        targetY = targetY &lt; <span class="number">0</span> ? <span class="number">0</span> : (targetY + $moveTarget.<span class="title function_">outerHeight</span>() &gt;= <span class="variable language_">window</span>.<span class="property">innerHeight</span>) ? <span class="variable language_">window</span>.<span class="property">innerHeight</span> - $moveTarget.<span class="title function_">outerHeight</span>() : targetY;</span></span><br><span class="line"><span class="language-javascript">        $moveTarget.<span class="title function_">css</span>(&#123;<span class="string">&#x27;left&#x27;</span>: targetX + <span class="string">&#x27;px&#x27;</span>, <span class="string">&#x27;top&#x27;</span>: targetY + <span class="string">&#x27;px&#x27;</span>, <span class="string">&#x27;bottom&#x27;</span>: <span class="string">&#x27;inherit&#x27;</span>, <span class="string">&#x27;right&#x27;</span>: <span class="string">&#x27;inherit&#x27;</span>&#125;)</span></span><br><span class="line"><span class="language-javascript">      &#125;).<span class="title function_">on</span>(<span class="string">&#x27;mouseup&#x27;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">        $DOC.<span class="title function_">unbind</span>(<span class="string">&quot;selectstart&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">        $DOC.<span class="title function_">off</span>(<span class="string">&#x27;mousemove&#x27;</span>)</span></span><br><span class="line"><span class="language-javascript">        $DOC.<span class="title function_">off</span>(<span class="string">&#x27;mouseup&#x27;</span>)</span></span><br><span class="line"><span class="language-javascript">        $moveTarget.<span class="title function_">css</span>(<span class="string">&#x27;border&#x27;</span>, <span class="string">&#x27;none&#x27;</span>)</span></span><br><span class="line"><span class="language-javascript">        $(<span class="string">&#x27;#musicDragArea&#x27;</span>).<span class="title function_">css</span>(<span class="string">&#x27;height&#x27;</span>, <span class="string">&#x27;10px&#x27;</span>);</span></span><br><span class="line"><span class="language-javascript">      &#125;)</span></span><br><span class="line"><span class="language-javascript">    &#125;)</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+      
+       <hr><span style="font-style: italic;color: gray;"> Please indicate the source for reprinting, welcome to research the sources quoted in the article, welcome to point out any errors or not clear expression. Leave a comment in the comment section below or email us at 3279388083@qq.com </span>
+    </div>
+</article>
+
+
+
+<div class="article_copyright">
+    <p><span class="copy-title">Title:</span>Hexo add music plugin</p>
+    <p><span class="copy-title">Count:</span><span class="post-count">890</span></p>
+    <p><span class="copy-title">Author:</span><a  title="Xu Zijin">Xu Zijin</a></p>
+    <p><span class="copy-title">Created At:</span>2023-11-25, 16:42:45</p>
+    <p><span class="copy-title">Updated At:</span>2024-02-02, 08:48:33</p>
+    <span class="copy-title">Url:</span><a class="post-url" href="/en/11262023/Hexo-add-music-plugin/" title="Hexo add music plugin">https://xuzijin.com/en/11262023/Hexo-add-music-plugin/</a>
+    <p>
+        <span class="copy-title">Copyright:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">&#39;Attribution-non-commercial-shared in the same way 4.0&#39;</a> Reprint please keep the original link and author.
+    </p>
+</div>
+
+
+
+
+
+    
+
+
+
+
+    </div>
+    <div class="copyright">
+        <p class="footer-entry">
+    ©2019-2024 Zijin
+</p>
+<p class="footer-entry">Built with <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank">3-hexo</a> theme</p>
+
+    </div>
+    <div class="full-toc">
+        <button class="full" data-title="Fullscreen shortcut key s"><span class="min "></span></button>
+<a class="" id="rocket" ></a>
+
+    </div>
+</div>
+
+</body>
+<script src="/en/js/jquery.pjax.js?v=1.1.0" ></script>
+
+<script src="/en/js/script.js?v=1.1.0" ></script>
+<script>
+    var img_resize = 'default';
+    function initArticle() {
+        /*渲染对应的表格样式*/
+        
+            $("#post .pjax table").addClass("green_title");
+        
+
+        /*渲染打赏样式*/
+        
+
+        /*高亮代码块行号*/
+        
+        $('pre code').each(function(){
+            var lines = $(this).text().trim().split('\n').length, widther='';
+            if (lines>99) {
+                widther = 'widther'
+            }
+            var $numbering = $('<ul/>').addClass('pre-numbering ' + widther).attr("unselectable","on");
+            $(this).addClass('has-numbering ' + widther)
+                    .parent()
+                    .append($numbering);
+            for(var i=1;i<=lines;i++){
+                $numbering.append($('<li/>').text(i));
+            }
+        });
+        
+
+        /*访问数量*/
+        
+        $.getScript("//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js");
+        
+
+        /*代码高亮，行号对齐*/
+        $('.pre-numbering').css('line-height',$('.has-numbering').css('line-height'));
+
+        
+        
+    }
+
+    /*打赏页面隐藏与展示*/
+    
+
+</script>
+
+<!--加入行号的高亮代码块样式-->
+
+<style>
+    pre{
+        position: relative;
+        margin-bottom: 24px;
+        border-radius: 10px;
+        border: 1px solid #e2dede;
+        background: #FFF;
+        overflow: hidden;
+    }
+    code.has-numbering{
+        margin-left: 30px;
+    }
+    code.has-numbering.widther{
+        margin-left: 35px;
+    }
+    .pre-numbering{
+        margin: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+        padding: 0.5em 3px 0.7em 5px;
+        border-right: 1px solid #C3CCD0;
+        text-align: right;
+        color: #AAA;
+        background-color: #fafafa;
+    }
+    .pre-numbering.widther {
+        width: 35px;
+    }
+</style>
+
+<!--自定义样式设置-->
+<style>
+    
+    
+    .nav {
+        width: 552px;
+    }
+    .nav.fullscreen {
+        margin-left: -552px;
+    }
+    .nav-left {
+        width: 130px;
+    }
+    
+    
+    @media screen and (max-width: 1468px) {
+        .nav {
+            width: 507px;
+        }
+        .nav.fullscreen {
+            margin-left: -507px;
+        }
+        .nav-left {
+            width: 115px;
+        }
+    }
+    
+    
+    @media screen and (max-width: 1024px) {
+        .nav {
+            width: 507px;
+            margin-left: -507px
+        }
+        .nav.fullscreen {
+            margin-left: 0;
+        }
+    }
+    
+    @media screen and (max-width: 426px) {
+        .nav {
+            width: 100%;
+        }
+        .nav-left {
+            width: 100%;
+        }
+    }
+    
+    
+    .nav-right .title-list nav a .post-title, .nav-right .title-list #local-search-result a .post-title {
+        color: #383636;
+    }
+    
+    
+    .nav-right .title-list nav a .post-date, .nav-right .title-list #local-search-result a .post-date {
+        color: #5e5e5f;
+    }
+    
+    
+    .nav-right nav a.hover, #local-search-result a.hover{
+        background-color: #e2e0e0;
+    }
+    
+    
+
+    /*列表样式*/
+    
+
+    /* 背景图样式 */
+    
+    
+
+
+    /*引用块样式*/
+    
+
+    /*文章列表背景图*/
+    
+
+    
+</style>
+
+
+
+
+
+
+<div class="mobile-menus-out" >
+
+</div>
+<div class="mobile-menus">
+    
+    
+    
+    
+    <a class="dynamic-menu " target="_self"   href="https://xuzijin.com">Chinese</a>
+    
+</div>
+
+
+
+</html>

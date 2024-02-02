@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Use the MCSM panel to quickly set up an MC server | Xu Zijin</title>
+  <meta name="keywords" content=" Minecraft ">
+  <meta name="description" content="Use the MCSM panel to quickly set up an MC server | Xu Zijin">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="关于|About Reading volume:   个人简介Webmaster (Xu Zijin), A junior high school student, like programming (python, c, C ++, arduino), like to study hardware, install computer , make servers, like to play mi">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Xu Zijin">
+<meta property="og:url" content="https://xuzijin.com/en/about/index.html">
+<meta property="og:site_name" content="Xu Zijin">
+<meta property="og:description" content="关于|About Reading volume:   个人简介Webmaster (Xu Zijin), A junior high school student, like programming (python, c, C ++, arduino), like to study hardware, install computer , make servers, like to play mi">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://static.ipw.cn/icon/ipv6-certified-s1.svg">
+<meta property="article:published_time" content="2024-02-02T08:48:33.431Z">
+<meta property="article:modified_time" content="2024-02-02T08:48:33.431Z">
+<meta property="article:author" content="Xu Zijin">
+<meta property="article:tag" content="blog">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://static.ipw.cn/icon/ipv6-certified-s1.svg">
+
+
+<link rel="icon" href="/img/favicon.jpg">
+
+<link href="/en/css/style.css?v=1.1.0" rel="stylesheet">
+
+<link href="/en/css/hl_theme/atom-light.css?v=1.1.0" rel="stylesheet">
+
+<link href="//cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" rel="stylesheet">
+
+<script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="/en/js/titleTip.js?v=1.1.0" ></script>
+
+<script src="//cdn.jsdelivr.net/npm/highlightjs@9.16.2/highlight.pack.min.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+
+<script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
+
+
+
+<script src="//cdn.jsdelivr.net/npm/jquery.cookie@1.4.1/jquery.cookie.min.js" ></script>
+
+<script src="/en/js/iconfont.js?v=1.1.0" ></script>
+<script src="/en/js/custom-iconfont.js?v=1.1.0" ></script>
+<script src="/en/js/gitlab.js?v=1.1.0" ></script>
+
+<meta name="generator" content="Hexo 7.1.1"><link rel="alternate" href="/en/atom.xml" title="Xu Zijin" type="application/atom+xml">
+</head>
+<div style="display: none">
+  <input class="theme_disqus_on" value="false">
+  <input class="theme_preload_comment" value="">
+  <input class="theme_blog_path" value="/en">
+  <input id="theme_shortcut" value="true" />
+  <input id="theme_highlight_on" value="true" />
+  <input id="theme_code_copy" value="true" />
+</div>
+
+
+
+<body>
+<aside class="nav">
+    <div class="nav-left">
+        <a href="/en/"
+   class="avatar_target">
+    <img class="avatar"
+         src="/en/img/avatar.jpg"/>
+</a>
+<div class="author">
+    <span>Xu Zijin</span>
+</div>
+
+<div class="icon">
+    
+        
+            <a title="rss"
+               href="/atom.xml"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-rss"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="github"
+               href="https://github.com/XU-Zijin"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="facebook"
+               href="https://www.facebook.com/profile.php?id=61556121692006"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-facebook"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="twitter"
+               href="https://twitter.com/ZijinXu510514"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-twitter"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="zhihu"
+               href="https://www.zhihu.com/people/xzj-zh"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-zhihu"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="csdn"
+               href="https://blog.csdn.net/apple_71925917?spm=1000.2115.3001.5343"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-csdn"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="oschina"
+               href="https://www.oschina.net/"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-oschina"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="email"
+               href="mailto:3279388083@qq.com"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-email"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="qq"
+               href="http://wpa.qq.com/msgrd?v=3&uin=3279388083&site=qq&menu=yes"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-qq"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="gitee"
+               href="https://gitee.com/xzj0512"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-gitee"></use>
+                    </svg>
+                
+            </a>
+        
+    
+        
+            <a title="gitlab"
+               href="https://gitlab.com/XU-Zijin"
+               target="_blank">
+                
+                    <svg class="iconfont-svg" aria-hidden="true">
+                        <use xlink:href="#icon-gitlab"></use>
+                    </svg>
+                
+            </a>
+        
+    
+</div>
+
+
+
+    <a class="more-menus">More menu</a>
+
+
+<ul>
+    <li>
+        <div class="all active" data-rel="All">All
+            
+                <small>(18)</small>
+            
+        </div>
+    </li>
+    
+        
+            
+                <li>
+                    <div data-rel="Tools">
+                        <i class="fold iconfont icon-right"></i>
+                        
+                        Tools
+                        <small>(9)</small>
+                        
+                    </div>
+                    
+                        <ul class="sub hide">
+                            
+                                <li>
+                                    <div data-rel="Tools<--->Git">
+                                        <i class="fold iconfont icon-right"></i>
+                                        
+                                        Git
+                                        
+                                            <small>(3
+                                                )</small>
+                                        
+                                    </div>
+                                    
+                                        <ul class="sub hide">
+                                            
+                                                <li>
+                                                    <div data-rel="Tools<--->GitDetailed edition">
+                                                        
+                                                        Detailed edition
+                                                        
+                                                            <small>(1)</small>
+                                                        
+                                                    </div>
+                                                </li>
+                                            
+                                                <li>
+                                                    <div data-rel="Tools<--->GitSimplified version">
+                                                        
+                                                        Simplified version
+                                                        
+                                                            <small>(1)</small>
+                                                        
+                                                    </div>
+                                                </li>
+                                            
+                                        </ul>
+                                    
+                                </li>
+                            
+                        </ul>
+                    
+                </li>
+            
+        
+    
+        
+            
+                <li>
+                    <div data-rel="Web">
+                        
+                        Web
+                        <small>(3)</small>
+                        
+                    </div>
+                    
+                </li>
+            
+        
+    
+        
+            
+                <li>
+                    <div data-rel="Linux">
+                        
+                        Linux
+                        <small>(4)</small>
+                        
+                    </div>
+                    
+                </li>
+            
+        
+    
+        
+            
+                <li>
+                    <div data-rel="Open source">
+                        
+                        Open source
+                        <small>(1)</small>
+                        
+                    </div>
+                    
+                </li>
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+</ul>
+<div class="left-bottom">
+    <div class="menus">
+        
+            
+            
+            
+                <a class="dynamic-menu "
+                   target="_self"
+                   
+                   href="https://xuzijin.com">Chinese</a>
+        
+    </div>
+    <div>
+        
+            <a class="about  hasFriend  site_url"
+               
+               href="/en/about">About</a>
+        
+        <a style="width: 50%"
+                
+                                           class="friends">Friends</a>
+        
+    </div>
+</div>
+<input type="hidden" id="yelog_site_posts_number" value="18">
+<input type="hidden" id="yelog_site_word_count" value="12.5k">
+<div style="display: none">
+    <span id="busuanzi_value_site_uv"></span>
+    <span id="busuanzi_value_site_pv"></span>
+</div>
+
+    </div>
+    <div class="nav-right">
+        <div class="friends-area">
+    <div class="friends-title">
+        Links
+        <i class="iconfont icon-left"></i>
+    </div>
+    <div class="friends-content">
+        <ul>
+            
+            <li><a target="_blank" href="https://github.com/XU-Zijin/en">Github Pages Repositories</a></li>
+            
+            <li><a target="_blank" href="https://xuzijin.com/en/zxl's-Personal-profile.html">zxl&#39;s Personal profile</a></li>
+            
+        </ul>
+    </div>
+</div>
+        <div class="title-list">
+    <div class="right-top">
+        <div id="default-panel">
+            <i class="iconfont icon-search" data-title="Search shortcut key i"></i>
+            <div class="right-title">All</div>
+            <i class="iconfont icon-file-tree" data-title="Switch to outline view shortcut key w"></i>
+        </div>
+        <div id="search-panel">
+            <i class="iconfont icon-left" data-title="Back"></i>
+            <input id="local-search-input" autocomplete="off"/>
+            <label class="border-line" for="input"></label>
+            <i class="iconfont icon-case-sensitive" data-title="Case sensitive"></i>
+            <i class="iconfont icon-tag" data-title="Tag"></i>
+        </div>
+        <div id="outline-panel" style="display: none">
+            <div class="right-title">Outline</div>
+            <i class="iconfont icon-list" data-title="Change the articles list"></i>
+        </div>
+    </div>
+
+    <div class="tags-list">
+    <input id="tag-search" />
+    <div class="tag-wrapper">
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>3-hexo</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Debian</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>git</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>hexo</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>html</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Linux</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Minecraft</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Python</a>
+            </li>
+        
+            <li class="article-tag-list-item">
+                <i class="iconfont icon-tag"></i><a>Ubuntu</a>
+            </li>
+        
+    </div>
+
+</div>
+
+    
+    <div id="local-search-result">
+
+    </div>
+    
+    <nav id="title-list-nav">
+        
+        
+        <a id="top" class="All Tools "
+           href="/en/03262023/3-hexo-Instructions/"
+           data-tag="hexo,3-hexo"
+           data-author="" >
+            <span class="post-title" title="3-hexo Instructions">3-hexo Instructions</span>
+            <span class="post-date" title="2023-03-26 12:11:27">2023/03/26</span>
+        </a>
+        
+        
+        <a  class="All "
+           href="/en/02022024/hello-world/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="Hello World">Hello World</span>
+            <span class="post-date" title="2024-02-02 08:48:33">2024/02/02</span>
+        </a>
+        
+        
+        <a  class="All Tools "
+           href="/en/02012024/Ubuntu-Debian-builds-hexo-blogs-from-0/"
+           data-tag="hexo"
+           data-author="" >
+            <span class="post-title" title="Ubuntu/Debian builds hexo blogs from 0">Ubuntu/Debian builds hexo blogs from 0</span>
+            <span class="post-date" title="2024-01-31 20:21:38">2024/01/31</span>
+        </a>
+        
+        
+        <a  class="All Linux "
+           href="/en/02012024/A-daily-Linux-command-(1)/"
+           data-tag="Linux"
+           data-author="" >
+            <span class="post-title" title="A daily Linux command (1)-View the kernel and distribution information of the current system">A daily Linux command (1)-View the kernel and distribution information of the current system</span>
+            <span class="post-date" title="2024-01-31 19:27:00">2024/01/31</span>
+        </a>
+        
+        
+        <a  class="All Linux "
+           href="/en/01312024/Use-wine-on-Ubuntu/"
+           data-tag="Linux,Ubuntu"
+           data-author="" >
+            <span class="post-title" title="Use wine on Ubuntu to run software on Windows">Use wine on Ubuntu to run software on Windows</span>
+            <span class="post-date" title="2024-01-30 21:22:56">2024/01/30</span>
+        </a>
+        
+        
+        <a  class="All Web "
+           href="/en/01312024/A-beautiful-personal-profile-by-html/"
+           data-tag="html"
+           data-author="" >
+            <span class="post-title" title="A beautiful personal profile by html">A beautiful personal profile by html</span>
+            <span class="post-date" title="2024-01-30 16:28:21">2024/01/30</span>
+        </a>
+        
+        
+        <a  class="All Tools Git Detailed edition "
+           href="/en/01302024/How-to-use-git(3)-detailed-edition/"
+           data-tag="git"
+           data-author="" >
+            <span class="post-title" title="How to use git(3) Detailed edition">How to use git(3) Detailed edition</span>
+            <span class="post-date" title="2024-01-29 20:30:09">2024/01/29</span>
+        </a>
+        
+        
+        <a  class="All Tools Git Simplified version "
+           href="/en/01302024/How-to-use-git(2)-simplified-version/"
+           data-tag="git"
+           data-author="" >
+            <span class="post-title" title="How to use git(2) Simplified version">How to use git(2) Simplified version</span>
+            <span class="post-date" title="2024-01-29 20:20:12">2024/01/29</span>
+        </a>
+        
+        
+        <a  class="All Linux "
+           href="/en/01282024/Ubuntu-Debian-%20change-source/"
+           data-tag="Linux,Ubuntu,Debian"
+           data-author="" >
+            <span class="post-title" title="Ubuntu/Debian change source">Ubuntu/Debian change source</span>
+            <span class="post-date" title="2024-01-28 10:28:27">2024/01/28</span>
+        </a>
+        
+        
+        <a  class="All Linux "
+           href="/en/01282024/Ubuntu-enables-ssh-and-allows-the-root-user/"
+           data-tag="Linux,Ubuntu,Debian"
+           data-author="" >
+            <span class="post-title" title="Ubuntu/Debian enables ssh and allows the root user to log in">Ubuntu/Debian enables ssh and allows the root user to log in</span>
+            <span class="post-date" title="2024-01-27 21:27:00">2024/01/27</span>
+        </a>
+        
+        
+        <a  class="All Tools "
+           href="/en/01282024/Change-website-icon-in-hexo/"
+           data-tag="hexo"
+           data-author="" >
+            <span class="post-title" title="Change website icon in hexo">Change website icon in hexo</span>
+            <span class="post-date" title="2024-01-27 18:01:35">2024/01/27</span>
+        </a>
+        
+        
+        <a  class="All Tools Git "
+           href="/en/01242024/How-to-use-git(1)/"
+           data-tag="git"
+           data-author="" >
+            <span class="post-title" title="How to use git(1)">How to use git(1)</span>
+            <span class="post-date" title="2024-01-23 20:01:17">2024/01/23</span>
+        </a>
+        
+        
+        <a  class="All Open source "
+           href="/en/01232024/PyClock/"
+           data-tag="Python"
+           data-author="" >
+            <span class="post-title" title="PyClock">PyClock</span>
+            <span class="post-date" title="2024-01-23 15:30:47">2024/01/23</span>
+        </a>
+        
+        
+        <a  class="All Tools "
+           href="/en/12102023/Set-up-an-minrcraft-server/"
+           data-tag="Minecraft"
+           data-author="" >
+            <span class="post-title" title="Use the MCSM panel to quickly set up an MC server">Use the MCSM panel to quickly set up an MC server</span>
+            <span class="post-date" title="2023-12-09 16:16:07">2023/12/09</span>
+        </a>
+        
+        
+        <a  class="All Tools "
+           href="/en/11262023/Hexo-add-music-plugin/"
+           data-tag="hexo,3-hexo"
+           data-author="" >
+            <span class="post-title" title="Hexo add music plugin">Hexo add music plugin</span>
+            <span class="post-date" title="2023-11-25 16:42:45">2023/11/25</span>
+        </a>
+        
+        
+        <a  class="All Tools "
+           href="/en/11252023/How-to-use-hexo/"
+           data-tag="hexo"
+           data-author="" >
+            <span class="post-title" title="How to use hexo">How to use hexo</span>
+            <span class="post-date" title="2023-11-25 15:51:32">2023/11/25</span>
+        </a>
+        
+        
+        <a  class="All Web "
+           href="/en/11192023/Change-a-new-domain-name/"
+           data-tag="hexo,3-hexo"
+           data-author="" >
+            <span class="post-title" title="My blog change a new domain name">My blog change a new domain name</span>
+            <span class="post-date" title="2023-11-19 11:31:05">2023/11/19</span>
+        </a>
+        
+        
+        <a  class="All Web "
+           href="/en/09172023/404-Page/"
+           data-tag="hexo"
+           data-author="" >
+            <span class="post-title" title="404 Page">404 Page</span>
+            <span class="post-date" title="2023-09-17 13:31:52">2023/09/17</span>
+        </a>
+        
+        <div id="no-item-tips">
+
+        </div>
+    </nav>
+    <div id="outline-list">
+    </div>
+</div>
+
+    </div>
+    <div class="hide-list">
+        <div class="semicircle" data-title="Fullscreen shortcut key s">
+            <div class="brackets first"><</div>
+            <div class="brackets">&gt;</div>
+        </div>
+    </div>
+</aside>
+<div id="post">
+    <div class="pjax">
+        <article id="post-Set-up-an-minrcraft-server" class="article article-type-post" itemscope itemprop="blogPost">
+    
+        <h1 class="article-title">Use the MCSM panel to quickly set up an MC server</h1>
+    
+    <div class="article-meta">
+        
+        
+        
+        <span class="book">
+            <i class="iconfont icon-category"></i>
+            
+            
+            <a  data-rel="Tools">Tools</a>
+            
+        </span>
+        
+        
+        <span class="tag">
+            <i class="iconfont icon-tag"></i>
+            
+            <a class="color5">Minecraft</a>
+            
+        </span>
+        
+    </div>
+    <div class="article-meta">
+        
+            Created At : <time class="date" title='Updated At: 2024-02-02 08:48:33'>2023-12-09 16:16</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        <span>Count:819</span>
+        
+        
+        <span id="busuanzi_container_page_pv">
+            Views 👀 :<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Linux%E6%90%AD%E5%BB%BAMinecraft1-18-1-Forge%E7%89%88%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B%EF%BC%8C%E5%8F%AF%E8%A3%85MOD%EF%BC%8C%E5%B8%A6%E9%9D%A2%E6%9D%BF"><span class="toc-text">Linux搭建Minecraft1.18.1 Forge版服务器教程，可装MOD，带面板</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%87%86%E5%A4%87"><span class="toc-text">准备</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BF%85%E8%A6%81%E7%9A%84"><span class="toc-text">必要的</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9D%9E%E5%BF%85%E8%A6%81%E7%9A%84"><span class="toc-text">非必要的</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85JAVA%E7%8E%AF%E5%A2%83"><span class="toc-text">安装JAVA环境</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AB%AF%E5%8F%A3%E5%BC%80%E6%94%BE"><span class="toc-text">端口开放</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E9%9D%A2%E6%9D%BF"><span class="toc-text">安装面板</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%9B%E5%BB%BAMC%E6%9C%8D%E5%8A%A1%E7%AB%AF"><span class="toc-text">创建MC服务端</span></a></li></ol></li></ol>
+    
+<style>
+    .left-col .switch-btn,
+    .left-col .switch-area {
+        display: none;
+    }
+    .toc-level-3 i,
+    .toc-level-3 ol {
+        display: none !important;
+    }
+</style>
+</div>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Linux搭建Minecraft1-18-1-Forge版服务器教程，可装MOD，带面板"><a href="#Linux搭建Minecraft1-18-1-Forge版服务器教程，可装MOD，带面板" class="headerlink" title="Linux搭建Minecraft1.18.1 Forge版服务器教程，可装MOD，带面板"></a>Linux搭建Minecraft<code>1.18.1 Forge</code>版服务器教程，可装MOD，带面板</h1><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><h3 id="必要的"><a href="#必要的" class="headerlink" title="必要的"></a>必要的</h3><ul>
+<li>首先你得有台服务器（已经有的可以忽略），没有的可以去买云服务器（提醒一下：如果你是新用户有优惠，能买多长时间就买多长时间，因为优惠价的服务器到期后续费很贵的，而且新用户优惠只能买一次，所以尽量买长时间点划算。）</li>
+<li>2核4G内存 5兆带宽的服务器大约可以同时在线1到10人，4核8G 10兆的服务器大约可以同时在线10到20人。1.18.1版的配置要求更高了。（因为1.18版本垃圾优化，内存需求大增，最低要求4G内存，低于4G大概率开不起来。）</li>
+<li></li>
+</ul>
+<h3 id="非必要的"><a href="#非必要的" class="headerlink" title="非必要的"></a>非必要的</h3><ul>
+<li>买一个域名作为你服务器的地址（像<code>2b2t.org</code>之类的，这里推荐用便宜的<code>.top</code>后缀的域名</li>
+</ul>
+<h2 id="安装JAVA环境"><a href="#安装JAVA环境" class="headerlink" title="安装JAVA环境"></a>安装JAVA环境</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 下载JDK17安装包，也可以自己去官网下载，如果出错就运行命令 yum install wget(centos)或 apt install wget(ubuntu/debian)</span></span><br><span class="line">wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb <span class="comment">#ubuntu用这个</span></span><br><span class="line">wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.rpm <span class="comment">#centos用这个</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装JDK17</span></span><br><span class="line">rpm -i jdk-17_linux-x64_bin.rpm <span class="comment">#centos用这个</span></span><br><span class="line">dpkg -i jdk-17_linux-x64_bin.deb <span class="comment">#ubuntu用这个</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 测试是否安装正常，显示 java version &quot;17.0.1&quot; 2021-10-19 LTS 则为正常</span></span><br><span class="line">java -version</span><br></pre></td></tr></table></figure>
+
+<h2 id="端口开放"><a href="#端口开放" class="headerlink" title="端口开放"></a>端口开放</h2><p>面板需要<code>23333</code>（主功能）端口与<code>20010 - 20200</code>（FTP功能端口区间。<br>游戏服务器默认端口是 25565。<br>如果你使用阿里云，腾讯云或者其他云服务商，请进入控制台到防火墙安全组策略，放行以上端口，或者放行全部端口，入和出方向都要</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ufw allow 23333</span><br><span class="line">ufw allow 25565</span><br><span class="line">ufw allow 20010-20200</span><br><span class="line">ufw status <span class="comment">#查看端口开放状态</span></span><br></pre></td></tr></table></figure>
+<p>如果依然无法访问，请关闭系统自带防火墙：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ufw <span class="built_in">disable</span> </span><br></pre></td></tr></table></figure>
+<h2 id="安装面板"><a href="#安装面板" class="headerlink" title="安装面板"></a>安装面板</h2><p>一行命令快速安装（适用于AMD64架构 Ubuntu&#x2F;Centos&#x2F;Debian&#x2F;Archlinux）</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -qO- https://gitee.com/Suwingser/MCSManager-installer/raw/master/install.sh | bash</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>执行完成后，使用<code>systemctl start mcsm</code>即可启动面板服务。</li>
+<li>运行命令<code>systemctl enable mcsm</code>来设置开机自启。</li>
+<li>运行命令<code>systemctl status mcsm</code>可以显示运行状态。</li>
+<li>面板代码与运行环境自动安装在<code>/opt/</code>目录下。</li>
+</ul>
+<p>安装完成后访问<code>http://你的ip:23333/</code>即可进入面板。</p>
+<ul>
+<li>默认账号：#master</li>
+<li>默认密码: 123456</li>
+</ul>
+<h2 id="创建MC服务端"><a href="#创建MC服务端" class="headerlink" title="创建MC服务端"></a>创建MC服务端</h2><p>服务端：  <a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1wL2egiPIXpYOte3H35jBZQ?pwd=99ip">https://pan.baidu.com/s/1wL2egiPIXpYOte3H35jBZQ?pwd=99ip</a>提取码: 99ip</p>
+<p>接着登陆管理面板，点击<code>创建新实例应用</code>，然后点击<code>快速创建</code>。然后填好服务器名字后点创建服务器。</p>
+<p>点击<code>管理</code>，<code>文件在线管理</code>，把刚刚下载的服务端压缩包上传。<br>然后把压缩包解压，进入解压出来的目录，把里面的文件都剪切到外面。<br>点击<code>参数</code>，自定义命令填写<code>bash run.sh</code><br>点击管理，模拟型终端，开启。</p>
+<p>然后就可以把地址发给你的小伙伴愉快的玩耍了（要确保你有公网IP以及路由器开启了端口转发）<br>服务器的配置（像正版验证都在<code>server.properties</code>这个文件里）</p>
+
+      
+       <hr><span style="font-style: italic;color: gray;"> Please indicate the source for reprinting, welcome to research the sources quoted in the article, welcome to point out any errors or not clear expression. Leave a comment in the comment section below or email us at 3279388083@qq.com </span>
+    </div>
+</article>
+
+
+
+<div class="article_copyright">
+    <p><span class="copy-title">Title:</span>Use the MCSM panel to quickly set up an MC server</p>
+    <p><span class="copy-title">Count:</span><span class="post-count">819</span></p>
+    <p><span class="copy-title">Author:</span><a  title="Xu Zijin">Xu Zijin</a></p>
+    <p><span class="copy-title">Created At:</span>2023-12-09, 16:16:07</p>
+    <p><span class="copy-title">Updated At:</span>2024-02-02, 08:48:33</p>
+    <span class="copy-title">Url:</span><a class="post-url" href="/en/12102023/Set-up-an-minrcraft-server/" title="Use the MCSM panel to quickly set up an MC server">https://xuzijin.com/en/12102023/Set-up-an-minrcraft-server/</a>
+    <p>
+        <span class="copy-title">Copyright:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">&#39;Attribution-non-commercial-shared in the same way 4.0&#39;</a> Reprint please keep the original link and author.
+    </p>
+</div>
+
+
+
+
+
+    
+
+
+
+
+    </div>
+    <div class="copyright">
+        <p class="footer-entry">
+    ©2019-2024 Zijin
+</p>
+<p class="footer-entry">Built with <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank">3-hexo</a> theme</p>
+
+    </div>
+    <div class="full-toc">
+        <button class="full" data-title="Fullscreen shortcut key s"><span class="min "></span></button>
+<a class="" id="rocket" ></a>
+
+    </div>
+</div>
+
+</body>
+<script src="/en/js/jquery.pjax.js?v=1.1.0" ></script>
+
+<script src="/en/js/script.js?v=1.1.0" ></script>
+<script>
+    var img_resize = 'default';
+    function initArticle() {
+        /*渲染对应的表格样式*/
+        
+            $("#post .pjax table").addClass("green_title");
+        
+
+        /*渲染打赏样式*/
+        
+
+        /*高亮代码块行号*/
+        
+        $('pre code').each(function(){
+            var lines = $(this).text().trim().split('\n').length, widther='';
+            if (lines>99) {
+                widther = 'widther'
+            }
+            var $numbering = $('<ul/>').addClass('pre-numbering ' + widther).attr("unselectable","on");
+            $(this).addClass('has-numbering ' + widther)
+                    .parent()
+                    .append($numbering);
+            for(var i=1;i<=lines;i++){
+                $numbering.append($('<li/>').text(i));
+            }
+        });
+        
+
+        /*访问数量*/
+        
+        $.getScript("//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js");
+        
+
+        /*代码高亮，行号对齐*/
+        $('.pre-numbering').css('line-height',$('.has-numbering').css('line-height'));
+
+        
+        
+    }
+
+    /*打赏页面隐藏与展示*/
+    
+
+</script>
+
+<!--加入行号的高亮代码块样式-->
+
+<style>
+    pre{
+        position: relative;
+        margin-bottom: 24px;
+        border-radius: 10px;
+        border: 1px solid #e2dede;
+        background: #FFF;
+        overflow: hidden;
+    }
+    code.has-numbering{
+        margin-left: 30px;
+    }
+    code.has-numbering.widther{
+        margin-left: 35px;
+    }
+    .pre-numbering{
+        margin: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+        padding: 0.5em 3px 0.7em 5px;
+        border-right: 1px solid #C3CCD0;
+        text-align: right;
+        color: #AAA;
+        background-color: #fafafa;
+    }
+    .pre-numbering.widther {
+        width: 35px;
+    }
+</style>
+
+<!--自定义样式设置-->
+<style>
+    
+    
+    .nav {
+        width: 552px;
+    }
+    .nav.fullscreen {
+        margin-left: -552px;
+    }
+    .nav-left {
+        width: 130px;
+    }
+    
+    
+    @media screen and (max-width: 1468px) {
+        .nav {
+            width: 507px;
+        }
+        .nav.fullscreen {
+            margin-left: -507px;
+        }
+        .nav-left {
+            width: 115px;
+        }
+    }
+    
+    
+    @media screen and (max-width: 1024px) {
+        .nav {
+            width: 507px;
+            margin-left: -507px
+        }
+        .nav.fullscreen {
+            margin-left: 0;
+        }
+    }
+    
+    @media screen and (max-width: 426px) {
+        .nav {
+            width: 100%;
+        }
+        .nav-left {
+            width: 100%;
+        }
+    }
+    
+    
+    .nav-right .title-list nav a .post-title, .nav-right .title-list #local-search-result a .post-title {
+        color: #383636;
+    }
+    
+    
+    .nav-right .title-list nav a .post-date, .nav-right .title-list #local-search-result a .post-date {
+        color: #5e5e5f;
+    }
+    
+    
+    .nav-right nav a.hover, #local-search-result a.hover{
+        background-color: #e2e0e0;
+    }
+    
+    
+
+    /*列表样式*/
+    
+
+    /* 背景图样式 */
+    
+    
+
+
+    /*引用块样式*/
+    
+
+    /*文章列表背景图*/
+    
+
+    
+</style>
+
+
+
+
+
+
+<div class="mobile-menus-out" >
+
+</div>
+<div class="mobile-menus">
+    
+    
+    
+    
+    <a class="dynamic-menu " target="_self"   href="https://xuzijin.com">Chinese</a>
+    
+</div>
+
+
+
+</html>
