@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xuzijin.com/en/about/index.html</loc>
+    
+    <lastmod>2024-02-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xuzijin.com/en/03262023/3-hexo-Instructions/</loc>
     
     <lastmod>2024-02-04</lastmod>
@@ -12,15 +21,6 @@
   
   <url>
     <loc>https://xuzijin.com/en/11252023/How-to-use-hexo/</loc>
-    
-    <lastmod>2024-02-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuzijin.com/en/about/index.html</loc>
     
     <lastmod>2024-02-04</lastmod>
     
