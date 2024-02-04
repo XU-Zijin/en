@@ -378,7 +378,7 @@
     <link href="https://xuzijin.com/en/11252023/How-to-use-hexo/"/>
     <id>https://xuzijin.com/en/11252023/How-to-use-hexo/</id>
     <published>2023-11-25T15:51:32.000Z</published>
-    <updated>2024-02-02T12:25:21.265Z</updated>
+    <updated>2024-02-04T03:05:46.238Z</updated>
     
     <content type="html"><![CDATA[<ul><li>Take note of some hexo commands</li></ul><h3 id="Write-a-new-article"><a href="#Write-a-new-article" class="headerlink" title="Write a new article"></a>Write a new article</h3><pre><code class="highlight bash">hexo new <span class="string">&quot;My New Post&quot;</span></code></pre><p>More information: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-hexo"><a href="#Run-hexo" class="headerlink" title="Run hexo"></a>Run hexo</h3><pre><code class="highlight bash">hexo server</code></pre><p>More information: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate"><a href="#Generate" class="headerlink" title="Generate"></a>Generate</h3><pre><code class="highlight bash">hexo generate</code></pre><p>More information: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy"><a href="#Deploy" class="headerlink" title="Deploy"></a>Deploy</h3><pre><code class="highlight bash">hexo deploy</code></pre><p>More information: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
