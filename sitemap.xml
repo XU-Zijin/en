@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xuzijin.com/en/about/index.html</loc>
+    
+    <lastmod>2024-02-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xuzijin.com/en/03262023/3-hexo-Instructions/</loc>
     
     <lastmod>2024-02-02</lastmod>
@@ -21,15 +30,6 @@
   
   <url>
     <loc>https://xuzijin.com/en/11252023/How-to-use-hexo/</loc>
-    
-    <lastmod>2024-02-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuzijin.com/en/about/index.html</loc>
     
     <lastmod>2024-02-02</lastmod>
     
@@ -175,7 +175,7 @@
 
   <url>
     <loc>https://xuzijin.com/en</loc>
-    <lastmod>2024-02-02</lastmod>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -183,63 +183,63 @@
   
   <url>
     <loc>https://xuzijin.com/en/tags/hexo/</loc>
-    <lastmod>2024-02-02</lastmod>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuzijin.com/en/tags/3-hexo/</loc>
-    <lastmod>2024-02-02</lastmod>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuzijin.com/en/tags/html/</loc>
-    <lastmod>2024-02-02</lastmod>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuzijin.com/en/tags/Linux/</loc>
-    <lastmod>2024-02-02</lastmod>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuzijin.com/en/tags/git/</loc>
-    <lastmod>2024-02-02</lastmod>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuzijin.com/en/tags/Python/</loc>
-    <lastmod>2024-02-02</lastmod>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuzijin.com/en/tags/Minecraft/</loc>
-    <lastmod>2024-02-02</lastmod>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuzijin.com/en/tags/Ubuntu/</loc>
-    <lastmod>2024-02-02</lastmod>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuzijin.com/en/tags/Debian/</loc>
-    <lastmod>2024-02-02</lastmod>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -248,49 +248,49 @@
   
   <url>
     <loc>https://xuzijin.com/en/categories/Tools/</loc>
-    <lastmod>2024-02-02</lastmod>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuzijin.com/en/categories/Web/</loc>
-    <lastmod>2024-02-02</lastmod>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuzijin.com/en/categories/Linux/</loc>
-    <lastmod>2024-02-02</lastmod>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuzijin.com/en/categories/Tools/Git/</loc>
-    <lastmod>2024-02-02</lastmod>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuzijin.com/en/categories/Open-source/</loc>
-    <lastmod>2024-02-02</lastmod>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuzijin.com/en/categories/Tools/Git/Simplified-version/</loc>
-    <lastmod>2024-02-02</lastmod>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xuzijin.com/en/categories/Tools/Git/Detailed-edition/</loc>
-    <lastmod>2024-02-02</lastmod>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
