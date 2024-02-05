@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://xuzijin.com/en/01312024/Use-wine-on-Ubuntu/</loc>
+    <loc>https://xuzijin.com/en/01282024/Ubuntu-enables-ssh-and-allows-the-root-user/</loc>
     
     <lastmod>2024-02-02</lastmod>
     
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://xuzijin.com/en/01282024/Ubuntu-enables-ssh-and-allows-the-root-user/</loc>
+    <loc>https://xuzijin.com/en/01312024/Use-wine-on-Ubuntu/</loc>
     
     <lastmod>2024-02-02</lastmod>
     
@@ -196,14 +196,14 @@
   </url>
   
   <url>
-    <loc>https://xuzijin.com/en/tags/Linux/</loc>
+    <loc>https://xuzijin.com/en/tags/html/</loc>
     <lastmod>2024-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xuzijin.com/en/tags/html/</loc>
+    <loc>https://xuzijin.com/en/tags/Linux/</loc>
     <lastmod>2024-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -275,6 +275,13 @@
   </url>
   
   <url>
+    <loc>https://xuzijin.com/en/categories/Open-source/</loc>
+    <lastmod>2024-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://xuzijin.com/en/categories/Tools/Git/Simplified-version/</loc>
     <lastmod>2024-02-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -283,13 +290,6 @@
   
   <url>
     <loc>https://xuzijin.com/en/categories/Tools/Git/Detailed-edition/</loc>
-    <lastmod>2024-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuzijin.com/en/categories/Open-source/</loc>
     <lastmod>2024-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
