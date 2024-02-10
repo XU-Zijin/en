@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xuzijin.com/en/01282024/Change-website-icon-in-hexo/</loc>
+    
+    <lastmod>2024-02-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuzijin.com/en/11192023/Change-a-new-domain-name/</loc>
+    
+    <lastmod>2024-02-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xuzijin.com/en/01312024/A-beautiful-personal-profile-by-html/</loc>
     
     <lastmod>2024-02-10</lastmod>
@@ -57,24 +75,6 @@
   
   <url>
     <loc>https://xuzijin.com/en/02012024/A-daily-Linux-command-(1)/</loc>
-    
-    <lastmod>2024-02-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuzijin.com/en/11192023/Change-a-new-domain-name/</loc>
-    
-    <lastmod>2024-02-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuzijin.com/en/01282024/Change-website-icon-in-hexo/</loc>
     
     <lastmod>2024-02-02</lastmod>
     
