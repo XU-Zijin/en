@@ -15,8 +15,8 @@ https://xuzijin.com/en/01302024/How-to-use-git(3)-detailed-edition/
 https://xuzijin.com/en/12102023/Set-up-an-minrcraft-server/
 https://xuzijin.com/en/01282024/Ubuntu-Debian-%20change-source/
 https://xuzijin.com/en/02012024/Ubuntu-Debian-builds-hexo-blogs-from-0/
-https://xuzijin.com/en/01282024/Ubuntu-enables-ssh-and-allows-the-root-user/
 https://xuzijin.com/en/01312024/Use-wine-on-Ubuntu/
+https://xuzijin.com/en/01282024/Ubuntu-enables-ssh-and-allows-the-root-user/
 https://xuzijin.com/en
 https://xuzijin.com/en/tags/hexo/
 https://xuzijin.com/en/tags/3-hexo/
