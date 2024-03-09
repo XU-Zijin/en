@@ -1,3 +1,5 @@
+https://xuzijin.com/en/11262023/Hexo-add-music-plugin/
+https://xuzijin.com/en/03102024/An-important-decision/
 https://xuzijin.com/en/02252024/404Archive/
 https://xuzijin.com/en/09172023/404-Page/
 https://xuzijin.com/en/02252024/%E7%BD%91%E7%AB%99%E8%AE%A1%E6%95%B0%E7%BB%9F%E8%AE%A1%E8%B2%8C%E4%BC%BC%E5%87%BA%E7%8E%B0bug%E4%BA%86/
@@ -5,8 +7,6 @@ https://xuzijin.com/en/03022024/%E9%81%87%E5%88%B0%E4%BA%86%E4%B8%AA%E6%9C%89%E7
 https://xuzijin.com/en/03032024/%E5%A1%AB%E5%9D%91%E6%97%A5%E8%AE%B0/
 https://xuzijin.com/en/03102024/Solve-dpkg-error-processing-in-Ubuntu/
 https://xuzijin.com/en/01232024/PyClock/
-https://xuzijin.com/en/02162024/GitHub%E5%8F%AF%E4%BB%A5%E6%AD%A3%E5%B8%B8%E8%AE%BF%E9%97%AE%E4%BA%86/
-https://xuzijin.com/en/03102024/An-important-decision/
 https://xuzijin.com/en/about/index.html
 https://xuzijin.com/en/01312024/A-beautiful-personal-profile-by-html/
 https://xuzijin.com/en/01282024/Change-website-icon-in-hexo/
@@ -14,7 +14,6 @@ https://xuzijin.com/en/11192023/Change-a-new-domain-name/
 https://xuzijin.com/en/03262023/3-hexo-Instructions/
 https://xuzijin.com/en/11252023/How-to-use-hexo/
 https://xuzijin.com/en/02012024/A-daily-Linux-command-(1)/
-https://xuzijin.com/en/11262023/Hexo-add-music-plugin/
 https://xuzijin.com/en/02022024/hello-world/
 https://xuzijin.com/en/01242024/How-to-use-git(1)/
 https://xuzijin.com/en/01302024/How-to-use-git(2)-simplified-version/
@@ -36,8 +35,6 @@ https://xuzijin.com/en/tags/Minecraft/
 https://xuzijin.com/en/tags/Ubuntu/
 https://xuzijin.com/en/tags/Debian/
 https://xuzijin.com/en/tags/%E7%BD%91%E7%AB%99/
-https://xuzijin.com/en/tags/GitHub/
-https://xuzijin.com/en/tags/%E5%BC%80%E6%BA%90/
 https://xuzijin.com/en/categories/Tools/
 https://xuzijin.com/en/categories/Web/
 https://xuzijin.com/en/categories/Linux/
@@ -46,5 +43,5 @@ https://xuzijin.com/en/categories/Tools/Git/
 https://xuzijin.com/en/categories/%E5%BC%80%E6%BA%90/
 https://xuzijin.com/en/categories/%E5%B7%A5%E5%85%B7/
 https://xuzijin.com/en/categories/Tools/Git/Simplified-version/
-https://xuzijin.com/en/categories/Tools/Git/Detailed-edition/
 https://xuzijin.com/en/categories/%E6%97%A5%E5%B8%B8/
+https://xuzijin.com/en/categories/Tools/Git/Detailed-edition/
