@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Archive</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .archive-container {
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+            padding: 20px;
+            margin: 20px;
+            box-sizing: border-box;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .archive-title {
+            font-size: 32px;
+            color: #333;
+        }
+        .archive-description {
+            font-size: 16px;
+            margin: 20px 0;
+            color: #666;
+            padding: 0 10px;
+        }
+        .list-container {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .list-item {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .list-item a {
+            color: #1e70bf;
+            text-decoration: none;
+        }
+        .list-item a:hover {
+            text-decoration: underline;
+        } 
+        .archive-footer {
+            font-size: 14px;
+            color: grey;
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .archive-title {
+                font-size: 24px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .archive-container {
+                margin: 15px;
+                padding: 15px;
+            }
+            .archive-title {
+                font-size: 20px;
+            }
+            .archive-description {
+                font-size: 14px;
+            }
+            .archive-footer {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="archive-container">
+        <div class="archive-title">404 Archive</div>
+        <p class="archive-description">Review any "page not found" messages that have appeared.</p>
+        <ul class="list-container">
+            <li class="list-item"><a href="/404-the-old.html">2019</a></li>
+            <li class="list-item"><a href="/404-the-old-2.html">2020-2021</a></li>
+            <li class="list-item"><a href="/404-the-old-3.html">2022-2023</a></li>
+            <li class="list-item"><a href="/404.html">Now</a></li>
+            <li class="list-item"><a href="https://xuzijin.com">Back</a></li>
+        </ul>
+        <div class="archive-footer">©2019-2024 8B1T</div>
+    </div>
+</body>
+</html>
