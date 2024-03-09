@@ -20,8 +20,8 @@ https://xuzijin.com/en/01312024/Use-wine-on-Ubuntu/
 https://xuzijin.com/en
 https://xuzijin.com/en/tags/hexo/
 https://xuzijin.com/en/tags/3-hexo/
-https://xuzijin.com/en/tags/Linux/
 https://xuzijin.com/en/tags/html/
+https://xuzijin.com/en/tags/Linux/
 https://xuzijin.com/en/tags/git/
 https://xuzijin.com/en/tags/Python/
 https://xuzijin.com/en/tags/Minecraft/
