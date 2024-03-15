@@ -46,7 +46,7 @@
     <link href="https://xuzijin.com/en/03102024/An-important-decision/"/>
     <id>https://xuzijin.com/en/03102024/An-important-decision/</id>
     <published>2024-03-09T17:50:47.000Z</published>
-    <updated>2024-03-09T15:57:46.541Z</updated>
+    <updated>2024-03-15T13:03:43.263Z</updated>
     
     <content type="html"><![CDATA[<p>I decided to start with this article and change all subsequent articles to English named files. Specifically why, you can see my previous article although the browser looks like the Chinese name, very intuitive, you can copy and paste the article link will find that the article name after the date in addition to English is garbled, accurately speaking, the url itself does not support Chinese need to transcode Chinese, into url coding, This also leads to the reason that your copied website links are very long and look very messy, and changing to English will not be so, so I decided to change the naming method.</p>]]></content>
     
@@ -58,7 +58,7 @@
     
     
     
-    <category term="网页" scheme="https://xuzijin.com/en/categories/%E7%BD%91%E9%A1%B5/"/>
+    <category term="Web" scheme="https://xuzijin.com/en/categories/Web/"/>
     
     
     <category term="hexo" scheme="https://xuzijin.com/en/tags/hexo/"/>

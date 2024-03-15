@@ -1,5 +1,5 @@
-https://xuzijin.com/en/11262023/Hexo-add-music-plugin/
 https://xuzijin.com/en/03102024/An-important-decision/
+https://xuzijin.com/en/11262023/Hexo-add-music-plugin/
 https://xuzijin.com/en/02252024/404Archive/
 https://xuzijin.com/en/09172023/404-Page/
 https://xuzijin.com/en/02252024/%E7%BD%91%E7%AB%99%E8%AE%A1%E6%95%B0%E7%BB%9F%E8%AE%A1%E8%B2%8C%E4%BC%BC%E5%87%BA%E7%8E%B0bug%E4%BA%86/
@@ -36,7 +36,6 @@ https://xuzijin.com/en/tags/git/
 https://xuzijin.com/en/categories/Tools/
 https://xuzijin.com/en/categories/Web/
 https://xuzijin.com/en/categories/Linux/
-https://xuzijin.com/en/categories/%E7%BD%91%E9%A1%B5/
 https://xuzijin.com/en/categories/%E5%BC%80%E6%BA%90/
 https://xuzijin.com/en/categories/%E5%B7%A5%E5%85%B7/
 https://xuzijin.com/en/categories/%E6%97%A5%E5%B8%B8/

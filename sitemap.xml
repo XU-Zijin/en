@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://xuzijin.com/en/11262023/Hexo-add-music-plugin/</loc>
+    <loc>https://xuzijin.com/en/03102024/An-important-decision/</loc>
     
     <lastmod>2024-03-15</lastmod>
     
@@ -11,9 +11,9 @@
   </url>
   
   <url>
-    <loc>https://xuzijin.com/en/03102024/An-important-decision/</loc>
+    <loc>https://xuzijin.com/en/11262023/Hexo-add-music-plugin/</loc>
     
-    <lastmod>2024-03-09</lastmod>
+    <lastmod>2024-03-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -312,13 +312,6 @@
   
   <url>
     <loc>https://xuzijin.com/en/categories/Linux/</loc>
-    <lastmod>2024-03-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuzijin.com/en/categories/%E7%BD%91%E9%A1%B5/</loc>
     <lastmod>2024-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
