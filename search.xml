@@ -13,7 +13,7 @@
       
       <categories>
           
-          <category> 工具 </category>
+          <category> Tools </category>
           
       </categories>
       
@@ -54,44 +54,19 @@
     
     
     <entry>
-      <title>填坑日记(持续更新)</title>
-      <link href="/en/03032024/%E5%A1%AB%E5%9D%91%E6%97%A5%E8%AE%B0/"/>
-      <url>/en/03032024/%E5%A1%AB%E5%9D%91%E6%97%A5%E8%AE%B0/</url>
+      <title>Pit Filling Diary (continuously updated)</title>
+      <link href="/en/03032024/Pit-diary/"/>
+      <url>/en/03032024/Pit-diary/</url>
       
-        <content type="html"><![CDATA[<p>3.9 今天在翻译英文网站，同步英文站点(麻)。</p><p>3.8 今天把PyClock更新了一下，具体可以看<a href="https://xuzijin.com/2024/01/23/PyClock/">https://xuzijin.com/2024/01/23/PyClock/</a>,顺便修改了下部分文章的错误。</p><p>2024.3.3 因为最近上学，所以我挖下的那些坑可能要暑假再来填了（悲）。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 日常 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>遇到了个有点无语的事情</title>
-      <link href="/en/03022024/%E9%81%87%E5%88%B0%E4%BA%86%E4%B8%AA%E6%9C%89%E7%82%B9%E6%97%A0%E8%AF%AD%E7%9A%84%E4%BA%8B%E6%83%85/"/>
-      <url>/en/03022024/%E9%81%87%E5%88%B0%E4%BA%86%E4%B8%AA%E6%9C%89%E7%82%B9%E6%97%A0%E8%AF%AD%E7%9A%84%E4%BA%8B%E6%83%85/</url>
-      
-        <content type="html"><![CDATA[<p>今天去参加一个python的比赛，然后从比赛开始主办方的服务器就状况频发，以至于后面开始崩溃，然后在赛场等了一个小时都没出结果。最后等到的结果是后面<code>可能</code>会安排补考。</p><p>我就想说你一个搞信息比赛的主办方居然不知道自己的服务器几斤几两，而且我跟我们信息老师聊天的时候得知这个比赛的服务器年年崩。算了不多说了，希望主办方吸取教训吧。</p>]]></content>
+        <content type="html"><![CDATA[<p>3.9 Today, I am translating English websites and synchronizing English websites (hemp).</p><p>3.8 PyClock was updated today. Specific can see [<a href="https://xuzijin.com/2024/01/23/PyClock/]">https://xuzijin.com/2024/01/23/PyClock/]</a> (<a href="https://xuzijin.com/2024/01/23/PyClock/">https://xuzijin.com/2024/01/23/PyClock/</a>), corrected the part of the article, by the way.</p><p>2024.3.3 Because I recently went to school, so those holes I dug may have to fill in the summer holiday (sad).</p>]]></content>
       
       
       <categories>
           
-          <category> 日常 </category>
+          <category> Daily </category>
           
       </categories>
       
-      
-        <tags>
-            
-            <tag> Python </tag>
-            
-        </tags>
       
     </entry>
     
@@ -124,8 +99,8 @@
     
     <entry>
       <title>网站计数统计貌似出现bug了</title>
-      <link href="/en/02252024/%E7%BD%91%E7%AB%99%E8%AE%A1%E6%95%B0%E7%BB%9F%E8%AE%A1%E8%B2%8C%E4%BC%BC%E5%87%BA%E7%8E%B0bug%E4%BA%86/"/>
-      <url>/en/02252024/%E7%BD%91%E7%AB%99%E8%AE%A1%E6%95%B0%E7%BB%9F%E8%AE%A1%E8%B2%8C%E4%BC%BC%E5%87%BA%E7%8E%B0bug%E4%BA%86/</url>
+      <link href="/en/02252024/The-website-count-statistics-have-something-wrong/"/>
+      <url>/en/02252024/The-website-count-statistics-have-something-wrong/</url>
       
         <content type="html"><![CDATA[<p>今天用手机正欣赏自己的博客发现手机和iPad上这个文章阅读量统计有bug，就是每篇文章的阅读量都一样，随便点开一篇文章然后可以看到文章阅读量+1，然后再打开一篇文章会发现就比刚刚看到那篇文章的阅读量+1，也就是每篇文章都是一样的阅读量，人麻了。</p>]]></content>
       
@@ -133,7 +108,26 @@
       
         <tags>
             
-            <tag> 网站 </tag>
+            <tag> Websites </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>There seems to be a bug in the website count statistics</title>
+      <link href="/en/02252024/%E7%BD%91%E7%AB%99%E8%AE%A1%E6%95%B0%E7%BB%9F%E8%AE%A1%E8%B2%8C%E4%BC%BC%E5%87%BA%E7%8E%B0bug%E4%BA%86/"/>
+      <url>/en/02252024/%E7%BD%91%E7%AB%99%E8%AE%A1%E6%95%B0%E7%BB%9F%E8%AE%A1%E8%B2%8C%E4%BC%BC%E5%87%BA%E7%8E%B0bug%E4%BA%86/</url>
+      
+        <content type="html"><![CDATA[<p>Today, when I was enjoying my blog on my mobile phone, I found that there was a bug in the reading statistics of this article on my mobile phone and iPad, that is, the reading amount of each article was the same. Randomly click on an article and you can see the reading amount of the article +1, and then open an article and you will find that the reading amount of each article is +1, that is, the reading amount of each article is the same.</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Websites </tag>
             
         </tags>
       
@@ -371,12 +365,12 @@
       <link href="/en/01232024/PyClock/"/>
       <url>/en/01232024/PyClock/</url>
       
-        <content type="html"><![CDATA[<h1 id="PyClock"><a href="#PyClock" class="headerlink" title="PyClock"></a>PyClock</h1><p>一个基于esp32的micropython项目，项目地址<a href="https://github.com/XU-Zijin/PyClock">https://github.com/XU-Zijin/PyClock</a></p><p>这是一个开源项目,原项目地址<a href="https://github.com/01studio-lab/pyClock">https://github.com/01studio-lab/pyClock</a>，也可以点击这里直接下载<a href="https://github.com/XU-Zijin/PyClock/archive/refs/heads/main.zip">PyClock</a>，使用我这个项目的前提是要有原项目的硬件以及固件，后面我会考虑适配没有这个固件的板子。</p><p>我重写了这个开源项目的软件部分(不包括固件)PS: 代码水平不高，有意见可以直接指出，有优化和bug的地方请指出</p><h2 id="代码结构"><a href="#代码结构" class="headerlink" title="代码结构"></a>代码结构</h2><p>boot.py ：启动参数配置，可以不用</p><p>main.py：主函数代码</p><p>data: 数据</p><pre><code>|---Fonts : 字库文件|---picture：主题图片素材|---CityCode.txt：全国城市编码file: 用于存放系统文件    |---wifi.txt: 记录WiFi账户密码    |---mode.txt: 系统状态文件    |---set.txt: 系统状态文件</code></pre><p>lib: 服务</p><pre><code>|---develop    |---devmode.py: 开发者模式(未开发完)|---service    |---service.py:系统服务(core)    |---led.py: 用于控制led灯    |---system.py: 用于pyshell(待开发)    |---ip.py: 自动获取城市</code></pre><p>libs: 项目Micropython库</p><pre><code>urllib: urequest库    |---parse.py    |---urequest.py: 爬虫库|---ap.py: AP热点配网|---global_var.py：全局变量定义ui：UI主题库     |---dial.py: 极简表盘    |---default.py: 默认表盘</code></pre><p>其中service.py是相当于这个程序的核心，大部分功能从这里调用</p><p><code>注：因为system.py和devmode.py文件里的功能尚未开发或未开发完，使用时可以删除，不影响现有功能及稳定性</code></p><h2 id="代码分析"><a href="#代码分析" class="headerlink" title="代码分析"></a>代码分析</h2><h3 id="结构分析"><a href="#结构分析" class="headerlink" title="结构分析"></a>结构分析</h3><p>首先<code>data</code>文件夹用于存放主题图片、字库、编码以及系统运行时所需的文件。</p><p><code>lib</code>文件夹中就是用于调试的<code>devmode.py</code>文件及用于系统大部分基础功能<code>service.py</code>文件，还有控制led的文件，最后还有一个是计划开发的<code>system.py</code>文件，我打算再这个开源硬件PyClock这个板子上实现一个终端功能，也就是pyshell。</p><p>而<code>libs</code>里面就是各种所需的库了，还有表盘，也就是UI。</p><h3 id="功能介绍"><a href="#功能介绍" class="headerlink" title="功能介绍"></a>功能介绍</h3><p>这个天气时钟的主要功能：</p><ul><li>查看天气</li><li>查看温湿度</li><li>查看时间</li><li>可以息屏</li><li>可以切换表盘</li><li>开机自动校准时间</li><li>手机web配网</li><li>自动获取城市</li></ul><h3 id="service-py和led-py文件的调用说明"><a href="#service-py和led-py文件的调用说明" class="headerlink" title="service.py和led.py文件的调用说明"></a>service.py和led.py文件的调用说明</h3><p>使用<code>from lib.service import led</code>从而调用led.py，使用<code>led.on()</code>即可开启板子上自带的led指示灯，使用<code>led.off()</code>即可关闭。</p><p>使用<code>from lib.service.service import server</code>导入server库</p><p>这两行代码用于联网</p><p>while not server.WIFI_Connect()&#x3D;&#x3D;True:<br>    pass</p><p><code>server.sync_ntp()</code>用于同步网络时钟</p><p><code>server.city_get()</code>获取城市编码</p><p><code>city=server.re(&#39;city&#39;)</code>返回城市编码</p><p><code>datetime = server.re(&#39;rtc&#39;)</code>返回rtc时间</p><p><code>server.weather_get(datetime)</code>获取天气</p><p><code>weather=server.re(&#39;weather&#39;)</code>返回天气</p><p><code>server.info_print()</code>打印天气到调试台</p><p><code>server.check()</code>自检</p><h2 id="怎么使用"><a href="#怎么使用" class="headerlink" title="怎么使用"></a>怎么使用</h2><p>首次开机按照屏幕上显示的步骤进行配网，然后开机会进入到默认的太空人表盘，短按切换表盘，目前有两个表盘，按两秒息屏，长按5秒进入出厂设置。</p><h2 id="版本说明"><a href="#版本说明" class="headerlink" title="版本说明"></a>版本说明</h2><p>V2.0.0修改默认表盘，修改AP配网文件，可以自动检测城市，新增加两个功能：短按切换表盘、按两秒息屏</p><p>V1.0.0开源，重写主要代码（除表盘，AP配网）</p>]]></content>
+        <content type="html"><![CDATA[<p>An ESP32-based micropython project at <a href="https://github.com/XU-Zijin/PyClock">https://github.com/XU-Zijin/PyClock</a></p><p>This is an open source project, the original project address <a href="https://github.com/01studio-lab/pyClock">https://github.com/01studio-lab/pyClock</a>. You can also click here to download directly <a href="https://github.com/XU-Zijin/PyClock/archive/refs/heads/main.zip">PyClock</a>, I use the premise of this project is to have the original project of hardware and firmware, I will consider adapting boards without this firmware later.</p><p>I rewrote the software part of this open source project (not including firmware)PS: The code level is not high, you can point out directly if you have comments, please point out where there are optimizations and bugs</p><h2 id="Code-structure"><a href="#Code-structure" class="headerlink" title="Code structure"></a>Code structure</h2><p>Boot. py: boot parameter Settings</p><p>Main.py: main function code</p><p>data: Data</p><pre><code>|-- Fonts: indicates the font file|-- picture: indicates the subject picture|-- CityCode.txt: indicates the national city codefile: Used to store system files    |-- wifi.txt: records the password of the WiFi account    |-- mode.txt: indicates the system status file    |-- set.txt: indicates the system status file</code></pre><p>lib: service</p><pre><code>|---develop    |-- devmode.py: Developer mode (not finished)|---service    |-- service.py: System service (core)    |-- led.py: controls led lights    |-- system.py: for pyshell(to be developed)    |-- ip.py: automatically obtains the city</code></pre><p>libs: Project Micropython library</p><pre><code>urllib: urequest library    |-- urequest.py: crawler library    |-- ap.py: indicates the AP hotspot network distribution    |-- global_var.py: global variable definitionui: UI theme library    |-- dial.py: indicates a simple table disk    |-- default.py: indicates the default dial</code></pre><p>service.py is the core of the program, where most of the functionality is called</p><p>Note: Since the functionality in system.py and devmode.py files is not yet developed or completed, it can be deleted when used without affecting the existing functionality and stability</p><h2 id="Code-analysis"><a href="#Code-analysis" class="headerlink" title="Code analysis"></a>Code analysis</h2><p>Structural analysis</p><p>First of all, the <code>data</code> folder is used to store the theme picture, font, code and the files required by the system running.</p><p>In the <code>lib</code> folder is the <code>devmode.py</code> file for debugging and the <code>service.py</code> file for most of the basic functions of the system, as well as the file for controlling leds, and finally there is a <code>system.py</code> file for planning development. I plan to implement a terminal function on this open source hardware PyClock board, that is, pyshell.</p><p>And <code>libs</code> inside is a variety of required libraries, as well as dial, that is, UI.</p><h3 id="Function-introduction"><a href="#Function-introduction" class="headerlink" title="Function introduction"></a>Function introduction</h3><p>The main functions of this weather clock:</p><ul><li>Check the weather</li><li>Check temperature and humidity</li><li>Check the time</li><li>Can breathe screen</li><li>Dial can be switched</li><li>Boot automatic calibration time</li><li>Mobile phone web distribution network</li><li>Automatically get the city</li></ul><h3 id="Call-instructions-for-service-py-and-led-py-files"><a href="#Call-instructions-for-service-py-and-led-py-files" class="headerlink" title="Call instructions for service.py and led.py files"></a>Call instructions for service.py and led.py files</h3><p>Use <code>from lib.service import led</code> to call LEd.py, use <code>LEd.on ()</code> to turn on the led that comes with the board, use <code>LEd.off ()</code> to turn it off.</p><p>Use <code>from lib.service.service import server</code> to import the server library</p><p>These two lines of code are used for networking</p><p>while not server.WIFI_Connect()&#x3D;&#x3D;True:<br>pass</p><p><code>server.sync_ntp()</code> is used to synchronize the network clock</p><p><code>server.city_get()</code> gets the city code</p><p><code>city =server.re(</code>city<code>) </code>Returns the city code</p><p><code>datetime = server.re(</code>rtc<code>)</code> Returns the rtc time</p><p><code>server.weather_get(datetime)</code> gets the weather</p><p><code>weather =server.re(</code>weather<code>) </code>Return weather</p><p><code>server.info_print()</code> prints the weather to the debug console</p><p><code>server.check()</code> self-check</p><h2 id="How-to-use"><a href="#How-to-use" class="headerlink" title="How to use"></a>How to use</h2><p>For the first time, follow the steps shown on the screen to configure the network, and then switch to the default astronaut dial, short press to switch the dial, there are two dial, press the two-second pause screen, and long press for 5 seconds to enter the factory Settings.</p><h2 id="Version-description"><a href="#Version-description" class="headerlink" title="Version description"></a>Version description</h2><p>V2.0.1 Add automatic adjustment of the esp32 CPU frequency to save power consumption, the CPU frequency is 160MHz under normal conditions, 80MHz during the breath screen, and 20MHz when the breath screen is more than 15 minutes</p><p>V2.0.0 Modify the default dial, modify the AP network file, can automatically detect the city, and add two new functions: short press to switch the dial and press the two-second pause screen</p><p>V1.0.0 Open source, rewrite the main code (except dial, AP distribution network)</p>]]></content>
       
       
       <categories>
           
-          <category> 开源 </category>
+          <category> Open source </category>
           
       </categories>
       

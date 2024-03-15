@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xuzijin.com/en/01232024/PyClock/</loc>
+    
+    <lastmod>2024-03-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuzijin.com/en/02252024/%E7%BD%91%E7%AB%99%E8%AE%A1%E6%95%B0%E7%BB%9F%E8%AE%A1%E8%B2%8C%E4%BC%BC%E5%87%BA%E7%8E%B0bug%E4%BA%86/</loc>
+    
+    <lastmod>2024-03-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuzijin.com/en/03032024/Pit-diary/</loc>
+    
+    <lastmod>2024-03-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuzijin.com/en/02252024/The-website-count-statistics-have-something-wrong/</loc>
+    
+    <lastmod>2024-03-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xuzijin.com/en/03102024/Solve-dpkg-error-processing-in-Ubuntu/</loc>
+    
+    <lastmod>2024-03-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xuzijin.com/en/03102024/An-important-decision/</loc>
     
     <lastmod>2024-03-15</lastmod>
@@ -30,51 +75,6 @@
   
   <url>
     <loc>https://xuzijin.com/en/09172023/404-Page/</loc>
-    
-    <lastmod>2024-03-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuzijin.com/en/02252024/%E7%BD%91%E7%AB%99%E8%AE%A1%E6%95%B0%E7%BB%9F%E8%AE%A1%E8%B2%8C%E4%BC%BC%E5%87%BA%E7%8E%B0bug%E4%BA%86/</loc>
-    
-    <lastmod>2024-03-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuzijin.com/en/03022024/%E9%81%87%E5%88%B0%E4%BA%86%E4%B8%AA%E6%9C%89%E7%82%B9%E6%97%A0%E8%AF%AD%E7%9A%84%E4%BA%8B%E6%83%85/</loc>
-    
-    <lastmod>2024-03-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuzijin.com/en/03032024/%E5%A1%AB%E5%9D%91%E6%97%A5%E8%AE%B0/</loc>
-    
-    <lastmod>2024-03-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuzijin.com/en/03102024/Solve-dpkg-error-processing-in-Ubuntu/</loc>
-    
-    <lastmod>2024-03-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuzijin.com/en/01232024/PyClock/</loc>
     
     <lastmod>2024-03-09</lastmod>
     
@@ -274,14 +274,14 @@
   </url>
   
   <url>
-    <loc>https://xuzijin.com/en/tags/Debian/</loc>
+    <loc>https://xuzijin.com/en/tags/Websites/</loc>
     <lastmod>2024-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xuzijin.com/en/tags/%E7%BD%91%E7%AB%99/</loc>
+    <loc>https://xuzijin.com/en/tags/Debian/</loc>
     <lastmod>2024-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -318,21 +318,14 @@
   </url>
   
   <url>
-    <loc>https://xuzijin.com/en/categories/%E5%BC%80%E6%BA%90/</loc>
+    <loc>https://xuzijin.com/en/categories/Daily/</loc>
     <lastmod>2024-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xuzijin.com/en/categories/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2024-03-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xuzijin.com/en/categories/%E6%97%A5%E5%B8%B8/</loc>
+    <loc>https://xuzijin.com/en/categories/Open-source/</loc>
     <lastmod>2024-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
